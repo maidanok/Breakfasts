@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Breakfasts.iml" filepath="$PROJECT_DIR$/.idea/modules/Breakfasts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Breakfast.iml" filepath="$PROJECT_DIR$/.idea/modules/Breakfast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/breakfast-data-layer.iml" filepath="$PROJECT_DIR$/.idea/modules/breakfast-data-layer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/breakfast-servise.iml" filepath="$PROJECT_DIR$/.idea/modules/breakfast-servise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/breakfast-ui.iml" filepath="$PROJECT_DIR$/.idea/modules/breakfast-ui.iml" />
     </modules>
   </component>
 </project>

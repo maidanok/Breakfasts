@@ -1,7 +1,9 @@
-group 'Breakfasts'
+group 'Breakfast'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
+apply plugin: 'application'
+apply plugin: 'idea'
 
 sourceCompatibility = 1.5
 

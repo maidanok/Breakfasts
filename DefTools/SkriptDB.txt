@@ -1,0 +1,225 @@
+CREATE DATABASE "BreakfastSale"
+    WITH 
+    OWNER = postgres
+    ENCODING = 'UTF8'
+    LC_COLLATE = 'Russian_Russia.1251'
+    LC_CTYPE = 'Russian_Russia.1251'
+    TABLESPACE = pg_default
+    CONNECTION LIMIT = 10;
+    
+-- Database: BreakfastSale
+
+-- DROP DATABASE "BreakfastSale";
+
+CREATE TABLE BreakfastSale.public.rooms
+(
+    room integer NOT NULL,
+    floor integer NOT NULL,
+    CONSTRAINT rooms_pkey PRIMARY KEY (room)
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public.rooms
+    OWNER to postgres;
+
+
+CREATE TABLE BreakfastSale.public."Breakfast"
+(
+    id_breakfast serial NOT NULL,
+    name_breakfast character varying(20) COLLATE pg_catalog."default" NOT NULL,
+    prise numeric NOT NULL,
+    CONSTRAINT "Breakfast_pkey" PRIMARY KEY (id_breakfast)
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public."Breakfast"
+    OWNER to postgres;
+    
+CREATE TABLE BreakfastSale.public."Orders"
+(
+    id_order serial NOT NULL,
+    id_breakfast integer,
+    room integer,
+    date_order date,
+    was_spent boolean,
+    PRIMARY KEY (id_order)
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE public."Orders"
+    OWNER to postgres;
+    
+ INSERT INTO public."Breakfast"(
+	name_breakfast, prise)
+	VALUES ('Classic breakfast', 6);
+INSERT INTO public."Breakfast"(
+	name_breakfast, prise)
+	VALUES ('Buffet breakfast', 9);
+ 
+    
+INSERT INTO public.rooms(room, floor) VALUES (400, 4);
+INSERT INTO public.rooms(room, floor) VALUES (401, 4);
+INSERT INTO public.rooms(room, floor) VALUES (402, 4);
+INSERT INTO public.rooms(room, floor) VALUES (403, 4);
+INSERT INTO public.rooms(room, floor) VALUES (404, 4);
+INSERT INTO public.rooms(room, floor) VALUES (405, 4);
+INSERT INTO public.rooms(room, floor) VALUES (406, 4);
+INSERT INTO public.rooms(room, floor) VALUES (407, 4);
+INSERT INTO public.rooms(room, floor) VALUES (408, 4);
+INSERT INTO public.rooms(room, floor) VALUES (409, 4);
+INSERT INTO public.rooms(room, floor) VALUES (410, 4);
+INSERT INTO public.rooms(room, floor) VALUES (411, 4);
+INSERT INTO public.rooms(room, floor) VALUES (412, 4);
+INSERT INTO public.rooms(room, floor) VALUES (413, 4);
+INSERT INTO public.rooms(room, floor) VALUES (414, 4);
+INSERT INTO public.rooms(room, floor) VALUES (415, 4);
+INSERT INTO public.rooms(room, floor) VALUES (500, 5);
+INSERT INTO public.rooms(room, floor) VALUES (501, 5);
+INSERT INTO public.rooms(room, floor) VALUES (502, 5);
+INSERT INTO public.rooms(room, floor) VALUES (503, 5);
+INSERT INTO public.rooms(room, floor) VALUES (504, 5);
+INSERT INTO public.rooms(room, floor) VALUES (505, 5);
+INSERT INTO public.rooms(room, floor) VALUES (506, 5);
+INSERT INTO public.rooms(room, floor) VALUES (507, 5);
+INSERT INTO public.rooms(room, floor) VALUES (508, 5);
+INSERT INTO public.rooms(room, floor) VALUES (509, 5);
+INSERT INTO public.rooms(room, floor) VALUES (510, 5);
+INSERT INTO public.rooms(room, floor) VALUES (511, 5);
+INSERT INTO public.rooms(room, floor) VALUES (512, 5);
+INSERT INTO public.rooms(room, floor) VALUES (513, 5);
+INSERT INTO public.rooms(room, floor) VALUES (514, 5);
+INSERT INTO public.rooms(room, floor) VALUES (515, 5);
+INSERT INTO public.rooms(room, floor) VALUES (600, 6);
+INSERT INTO public.rooms(room, floor) VALUES (601, 6);
+INSERT INTO public.rooms(room, floor) VALUES (602, 6);
+INSERT INTO public.rooms(room, floor) VALUES (603, 6);
+INSERT INTO public.rooms(room, floor) VALUES (604, 6);
+INSERT INTO public.rooms(room, floor) VALUES (605, 6);
+INSERT INTO public.rooms(room, floor) VALUES (606, 6);
+INSERT INTO public.rooms(room, floor) VALUES (607, 6);
+INSERT INTO public.rooms(room, floor) VALUES (608, 6);
+INSERT INTO public.rooms(room, floor) VALUES (609, 6);
+INSERT INTO public.rooms(room, floor) VALUES (610, 6);
+INSERT INTO public.rooms(room, floor) VALUES (611, 6);
+INSERT INTO public.rooms(room, floor) VALUES (612, 6);
+INSERT INTO public.rooms(room, floor) VALUES (613, 6);
+INSERT INTO public.rooms(room, floor) VALUES (614, 6);
+INSERT INTO public.rooms(room, floor) VALUES (615, 6);
+INSERT INTO public.rooms(room, floor) VALUES (700, 7);
+INSERT INTO public.rooms(room, floor) VALUES (701, 7);
+INSERT INTO public.rooms(room, floor) VALUES (702, 7);
+INSERT INTO public.rooms(room, floor) VALUES (703, 7);
+INSERT INTO public.rooms(room, floor) VALUES (704, 7);
+INSERT INTO public.rooms(room, floor) VALUES (705, 7);
+INSERT INTO public.rooms(room, floor) VALUES (706, 7);
+INSERT INTO public.rooms(room, floor) VALUES (707, 7);
+INSERT INTO public.rooms(room, floor) VALUES (708, 7);
+INSERT INTO public.rooms(room, floor) VALUES (709, 7);
+INSERT INTO public.rooms(room, floor) VALUES (710, 7);
+INSERT INTO public.rooms(room, floor) VALUES (711, 7);
+INSERT INTO public.rooms(room, floor) VALUES (712, 7);
+INSERT INTO public.rooms(room, floor) VALUES (713, 7);
+INSERT INTO public.rooms(room, floor) VALUES (714, 7);
+INSERT INTO public.rooms(room, floor) VALUES (715, 7);
+INSERT INTO public.rooms(room, floor) VALUES (800, 8);
+INSERT INTO public.rooms(room, floor) VALUES (801, 8);
+INSERT INTO public.rooms(room, floor) VALUES (802, 8);
+INSERT INTO public.rooms(room, floor) VALUES (803, 8);
+INSERT INTO public.rooms(room, floor) VALUES (804, 8);
+INSERT INTO public.rooms(room, floor) VALUES (805, 8);
+INSERT INTO public.rooms(room, floor) VALUES (806, 8);
+INSERT INTO public.rooms(room, floor) VALUES (807, 8);
+INSERT INTO public.rooms(room, floor) VALUES (808, 8);
+INSERT INTO public.rooms(room, floor) VALUES (809, 8);
+INSERT INTO public.rooms(room, floor) VALUES (810, 8);
+INSERT INTO public.rooms(room, floor) VALUES (811, 8);
+INSERT INTO public.rooms(room, floor) VALUES (812, 8);
+INSERT INTO public.rooms(room, floor) VALUES (813, 8);
+INSERT INTO public.rooms(room, floor) VALUES (814, 8);
+INSERT INTO public.rooms(room, floor) VALUES (815, 8);
+INSERT INTO public.rooms(room, floor) VALUES (900, 9);
+INSERT INTO public.rooms(room, floor) VALUES (901, 9);
+INSERT INTO public.rooms(room, floor) VALUES (902, 9);
+INSERT INTO public.rooms(room, floor) VALUES (903, 9);
+INSERT INTO public.rooms(room, floor) VALUES (904, 9);
+INSERT INTO public.rooms(room, floor) VALUES (905, 9);
+INSERT INTO public.rooms(room, floor) VALUES (906, 9);
+INSERT INTO public.rooms(room, floor) VALUES (907, 9);
+INSERT INTO public.rooms(room, floor) VALUES (908, 9);
+INSERT INTO public.rooms(room, floor) VALUES (909, 9);
+INSERT INTO public.rooms(room, floor) VALUES (910, 9);
+INSERT INTO public.rooms(room, floor) VALUES (911, 9);
+INSERT INTO public.rooms(room, floor) VALUES (912, 9);
+INSERT INTO public.rooms(room, floor) VALUES (913, 9);
+INSERT INTO public.rooms(room, floor) VALUES (914, 9);
+INSERT INTO public.rooms(room, floor) VALUES (915, 9);
+INSERT INTO public.rooms(room, floor) VALUES (1000, 10);
+INSERT INTO public.rooms(room, floor) VALUES (1001, 10);
+INSERT INTO public.rooms(room, floor) VALUES (1002, 10);
+INSERT INTO public.rooms(room, floor) VALUES (1003, 10);
+INSERT INTO public.rooms(room, floor) VALUES (1004, 10);
+INSERT INTO public.rooms(room, floor) VALUES (1005, 10);
+INSERT INTO public.rooms(room, floor) VALUES (1006, 10);
+INSERT INTO public.rooms(room, floor) VALUES (1007, 10);
+INSERT INTO public.rooms(room, floor) VALUES (1008, 10);
+INSERT INTO public.rooms(room, floor) VALUES (1009, 10);
+INSERT INTO public.rooms(room, floor) VALUES (1010, 10);
+INSERT INTO public.rooms(room, floor) VALUES (1011, 10);
+INSERT INTO public.rooms(room, floor) VALUES (1012, 10);
+INSERT INTO public.rooms(room, floor) VALUES (1013, 10);
+INSERT INTO public.rooms(room, floor) VALUES (1014, 10);
+INSERT INTO public.rooms(room, floor) VALUES (1015, 10);
+INSERT INTO public.rooms(room, floor) VALUES (1100, 11);
+INSERT INTO public.rooms(room, floor) VALUES (1101, 11);
+INSERT INTO public.rooms(room, floor) VALUES (1102, 11);
+INSERT INTO public.rooms(room, floor) VALUES (1103, 11);
+INSERT INTO public.rooms(room, floor) VALUES (1104, 11);
+INSERT INTO public.rooms(room, floor) VALUES (1105, 11);
+INSERT INTO public.rooms(room, floor) VALUES (1106, 11);
+INSERT INTO public.rooms(room, floor) VALUES (1107, 11);
+INSERT INTO public.rooms(room, floor) VALUES (1108, 11);
+INSERT INTO public.rooms(room, floor) VALUES (1109, 11);
+INSERT INTO public.rooms(room, floor) VALUES (1110, 11);
+INSERT INTO public.rooms(room, floor) VALUES (1111, 11);
+INSERT INTO public.rooms(room, floor) VALUES (1112, 11);
+INSERT INTO public.rooms(room, floor) VALUES (1113, 11);
+INSERT INTO public.rooms(room, floor) VALUES (1114, 11);
+INSERT INTO public.rooms(room, floor) VALUES (1115, 11);
+INSERT INTO public.rooms(room, floor) VALUES (1200, 12);
+INSERT INTO public.rooms(room, floor) VALUES (1201, 12);
+INSERT INTO public.rooms(room, floor) VALUES (1202, 12);
+INSERT INTO public.rooms(room, floor) VALUES (1203, 12);
+INSERT INTO public.rooms(room, floor) VALUES (1204, 12);
+INSERT INTO public.rooms(room, floor) VALUES (1205, 12);
+INSERT INTO public.rooms(room, floor) VALUES (1206, 12);
+INSERT INTO public.rooms(room, floor) VALUES (1207, 12);
+INSERT INTO public.rooms(room, floor) VALUES (1208, 12);
+INSERT INTO public.rooms(room, floor) VALUES (1209, 12);
+INSERT INTO public.rooms(room, floor) VALUES (1210, 12);
+INSERT INTO public.rooms(room, floor) VALUES (1211, 12);
+INSERT INTO public.rooms(room, floor) VALUES (1212, 12);
+INSERT INTO public.rooms(room, floor) VALUES (1213, 12);
+INSERT INTO public.rooms(room, floor) VALUES (1214, 12);
+INSERT INTO public.rooms(room, floor) VALUES (1215, 12);
+INSERT INTO public.rooms(room, floor) VALUES (1300, 13);
+INSERT INTO public.rooms(room, floor) VALUES (1301, 13);
+INSERT INTO public.rooms(room, floor) VALUES (1302, 13);
+INSERT INTO public.rooms(room, floor) VALUES (1303, 13);
+INSERT INTO public.rooms(room, floor) VALUES (1304, 13);
+INSERT INTO public.rooms(room, floor) VALUES (1305, 13);
+INSERT INTO public.rooms(room, floor) VALUES (1306, 13);
+INSERT INTO public.rooms(room, floor) VALUES (1307, 13);
+INSERT INTO public.rooms(room, floor) VALUES (1308, 13);
+INSERT INTO public.rooms(room, floor) VALUES (1309, 13);
+INSERT INTO public.rooms(room, floor) VALUES (1310, 13);
+
+

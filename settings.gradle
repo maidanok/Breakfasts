@@ -1,2 +1,3 @@
-rootProject.name = 'Breakfasts'
+rootProject.name = 'Breakfast'
 
+include 'breakfast-data-layer', 'breakfast-servise', 'breakfast-ui'
