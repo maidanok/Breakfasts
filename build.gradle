@@ -4,13 +4,14 @@ version '1.0-SNAPSHOT'
 apply plugin: 'java'
 apply plugin: 'application'
 apply plugin: 'idea'
+apply plugin: 'project-report'
 
-sourceCompatibility = 1.5
+htmlDependencyReport {
+    projects = project.allprojects
+}
+
+
 
 repositories {
     mavenCentral()
-}
-
-dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.11'
 }

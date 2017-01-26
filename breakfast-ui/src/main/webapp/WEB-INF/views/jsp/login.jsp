@@ -1,23 +1,13 @@
-<html>
-<head><title>Login Page</title></head>
-<body onload='document.f.j_username.focus();'>
-<h3>Login with Username and Password</h3>
-<form name='f' method='POST'
-action='/Spitter/j_spring_security_check'> <!-- Путь к фильтру -->
-<table> <!-- аутентификации -->
-<tr><td>User:</td><td> <!-- Поле ввода имени пользователя -->
-<input type='text' name='j_username' value=''>
-</td></tr>
-<tr><td>Password:</td><td> <!-- Поле ввода пароля -->
-<input type='password' name='j_password'/>
-</td></tr>
-<tr><td colspan='2'>
-<input name="submit" type="submit" value='Submit'/>
-</td></tr>
-<tr><td colspan='2'>
-<input name="reset" type="reset" value='Reset'/>
-</td></tr>
-</table>
-</form>
-</body>
-</html>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+ <%@page session="true"%>
+ <html>
+ <body>
+ 	<h1>Title : ${title}</h1>
+ 	<h1>Message : ${message}</h1>
+
+ 	<c:if test="${pageContext.request.userPrincipal.name != null}">
+ 	   <h2>Welcome : ${pageContext.request.userPrincipal.name}
+            | <a href="<c:url value="/j_spring_security_logout" />" > Logout</a></h2>
+ 	</c:if>
+ </body>
+ </html>
