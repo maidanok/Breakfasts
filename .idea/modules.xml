@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Breakfast.iml" filepath="$PROJECT_DIR$/.idea/modules/Breakfast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/breakfast-data-layer.iml" filepath="$PROJECT_DIR$/.idea/modules/breakfast-data-layer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/breakfast-service.iml" filepath="$PROJECT_DIR$/.idea/modules/breakfast-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/breakfast-ui.iml" filepath="$PROJECT_DIR$/.idea/modules/breakfast-ui.iml" />
+    </modules>
+  </component>
+</project>
