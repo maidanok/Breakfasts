@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@page session="true"%>
 <html>
@@ -74,5 +75,12 @@
 		</form>
 	</div>
 
+=======
+<%@page session="false"%>
+<html>
+<body>
+	<h1>Title : ${title}</h1>
+	<h1>Message : ${message}</h1>
+>>>>>>> 2c17667e0b5b20b048fda1f89ff32b6a009afec2
 </body>
 </html>

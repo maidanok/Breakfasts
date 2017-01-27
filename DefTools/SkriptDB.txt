@@ -223,6 +223,7 @@ INSERT INTO public.rooms(room, floor) VALUES (1309, 13);
 INSERT INTO public.rooms(room, floor) VALUES (1310, 13);
 
 
+<<<<<<< HEAD
 -- Database: BreakfastSale
 
 -- DROP DATABASE "BreakfastSale";
@@ -444,3 +445,5 @@ CREATE  TABLE users (
   password VARCHAR(45) NOT NULL ,
   enabled boolean NOT NULL DEFAULT true ,
   PRIMARY KEY (username));
+=======
+>>>>>>> 2c17667e0b5b20b048fda1f89ff32b6a009afec2
