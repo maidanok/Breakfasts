@@ -2,7 +2,11 @@
 <project version="4">
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
+<<<<<<< HEAD
     <value-preview-text-wrapping value="false" />
+=======
+    <value-preview-text-wrapping value="true" />
+>>>>>>> 9656cae0261cf4536414f983f613c58e52262f78
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DataExportManager">
@@ -25,9 +29,14 @@
     <show-object-properties value="true" />
     <loaded-nodes />
   </component>
+<<<<<<< HEAD
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="fdbd48e4-a01c-4c14-b66e-911b8d4acb38">
-      <console name="Connection" type="STANDARD" />
+      <console name="Connection" type="STANDARD"><![CDATA[CREATE  TABLE "public".users (
+  username VARCHAR(45) NOT NULL ,
+  password VARCHAR(45) NOT NULL ,
+  enabled boolean NOT NULL DEFAULT true ,
+  PRIMARY KEY (username));]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
@@ -36,8 +45,11 @@
         <condition column="username" operator="=" value="" active="true" />
       </filter>
     </filter-list>
+    <filter-list connection-id="fdbd48e4-a01c-4c14-b66e-911b8d4acb38" dataset="public.Rooms" active-filter-id="" />
     <filter-list connection-id="fdbd48e4-a01c-4c14-b66e-911b8d4acb38" dataset="public.user_roles" active-filter-id="EMPTY_FILTER" />
   </component>
+=======
+>>>>>>> 9656cae0261cf4536414f983f613c58e52262f78
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
   </component>
@@ -60,6 +72,7 @@
     <recently-used-interfaces />
   </component>
   <component name="DBNavigator.Project.Settings">
+<<<<<<< HEAD
     <connections>
       <connection id="fdbd48e4-a01c-4c14-b66e-911b8d4acb38" active="true">
         <database>
@@ -102,7 +115,7 @@
           <password-expiry-time value="10" />
           <max-connection-pool-size value="7" />
           <alternative-statement-delimiter value="" />
-          <connect-automatically value="true" />
+          <connect-automatically value="false" />
         </details>
         <object-filters hide-empty-schemas="false">
           <object-type-filter use-master-settings="true">
@@ -136,6 +149,9 @@
         </object-filters>
       </connection>
     </connections>
+=======
+    <connections />
+>>>>>>> 9656cae0261cf4536414f983f613c58e52262f78
     <browser-settings>
       <general>
         <display-mode value="TABBED" />

@@ -1,0 +1,7 @@
+rootProject.name = 'Breakfast'
+
+<<<<<<< HEAD
+include 'breakfast-data-layer', 'breakfast-servise', 'breakfast-ui'
+=======
+include 'breakfast-data-layer', 'breakfast-servise', 'breakfast-ui'
+>>>>>>> 9656cae0261cf4536414f983f613c58e52262f78
