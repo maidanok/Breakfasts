@@ -1,7 +1,7 @@
 group 'breakfast-ui'
 version '1.0-SNAPSHOT'
 
-<<<<<<< HEAD
+
 buildscript {
     repositories {
         jcenter()
@@ -12,40 +12,16 @@ buildscript {
 }
 
 apply plugin: 'java'
-apply plugin: 'war'
 apply plugin: 'org.akhikhl.gretty'
-
-repositories {
-    mavenCentral()
-}
-=======
-apply plugin: 'java'
 apply plugin: 'war'
-apply plugin: 'jetty'
-
-
-<<<<<<< HEAD
 repositories {
     mavenCentral()
 }
-=======
 
-repositories {
-
-    mavenCentral()
-}
-
->>>>>>> 2c17667e0b5b20b048fda1f89ff32b6a009afec2
->>>>>>> 9656cae0261cf4536414f983f613c58e52262f78
 dependencies {
 
-    //compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.1.9'
     compile group: 'org.springframework.security', name: 'spring-security-config', version: '4.2.1.RELEASE'
     compile group: 'org.springframework.security', name: 'spring-security-web', version: '4.2.1.RELEASE'
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 9656cae0261cf4536414f983f613c58e52262f78
     compile group: 'org.springframework.security', name: 'spring-security-taglibs', version: '4.2.1.RELEASE'
 
     compile group: 'org.springframework', name: 'spring-core', version: '4.3.5.RELEASE'
@@ -53,47 +29,8 @@ dependencies {
     compile group: 'org.springframework', name: 'spring-web', version: '4.3.5.RELEASE'
     compile group: 'org.springframework', name: 'spring-jdbc', version: '4.3.5.RELEASE'
 
-<<<<<<< HEAD
     compile group: 'jstl', name: 'jstl', version:'1.2'
-=======
-    compile 'javax.servlet:jstl:1.2'
-    compile group: 'javax.servlet', name: 'javax.servlet-api', version: '3.1.0'
->>>>>>> 9656cae0261cf4536414f983f613c58e52262f78
 
     compile group: 'postgresql', name: 'postgresql', version: '9.1-901-1.jdbc4'
     compile group: 'org.postgresql', name: 'postgresql', version: '9.4.1212'
-
-
-
-<<<<<<< HEAD
 }
-=======
-=======
-    compile group: 'org.springframework', name: 'spring-core', version: '4.3.5.RELEASE'
-    compile group: 'org.springframework', name: 'spring-webmvc', version: '4.3.5.RELEASE'
-    compile group: 'org.springframework', name: 'spring-web', version: '4.3.5.RELEASE'
-    compile 'javax.servlet:jstl:1.2'
-    compile group: 'javax.servlet', name: 'javax.servlet-api', version: '3.1.0'
-
->>>>>>> 2c17667e0b5b20b048fda1f89ff32b6a009afec2
-}
-
-// Embeded Jetty for testing
-jettyRun{
-<<<<<<< HEAD
-    contextPath = "login"
-=======
-    contextPath = "/login"
->>>>>>> 2c17667e0b5b20b048fda1f89ff32b6a009afec2
-    httpPort = 8080
-}
-
-jettyRunWar{
-<<<<<<< HEAD
-    contextPath = "login"
-=======
-    contextPath = "/login"
->>>>>>> 2c17667e0b5b20b048fda1f89ff32b6a009afec2
-    httpPort = 8080
-}
->>>>>>> 9656cae0261cf4536414f983f613c58e52262f78

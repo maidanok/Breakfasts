@@ -2,16 +2,8 @@ group 'Breakfast'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
-<<<<<<< HEAD
-=======
 apply plugin: 'application'
->>>>>>> 9656cae0261cf4536414f983f613c58e52262f78
 apply plugin: 'idea'
-apply plugin: 'project-report'
-
-htmlDependencyReport {
-    projects = project.allprojects
-}
 
 
 
