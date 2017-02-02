@@ -21,9 +21,9 @@
                 username-parameter="username"
                 password-parameter="password" />
         <logout logout-success-url="/login?logout"  />
-        <!-- enable csrf protection -->
         <csrf/>
     </http>
+
 <!--
     <authentication-manager>
         <authentication-provider>
@@ -33,7 +33,7 @@
         </authentication-provider>
     </authentication-manager>
 -->
-    <!-- Select users and user_roles from database-->
+    <!-- Select users and user_roles from database -->
     <authentication-manager>
         <authentication-provider>
             <jdbc-user-service
@@ -45,5 +45,4 @@
                                        "SELECT username, role FROM user_roles WHERE username =?" />
         </authentication-provider>
     </authentication-manager>
-
 </beans:beans>

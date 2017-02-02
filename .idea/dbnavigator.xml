@@ -2,11 +2,7 @@
 <project version="4">
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-<<<<<<< HEAD
-    <value-preview-text-wrapping value="false" />
-=======
     <value-preview-text-wrapping value="true" />
->>>>>>> 9656cae0261cf4536414f983f613c58e52262f78
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DataExportManager">
@@ -29,27 +25,6 @@
     <show-object-properties value="true" />
     <loaded-nodes />
   </component>
-<<<<<<< HEAD
-  <component name="DBNavigator.Project.DatabaseConsoleManager">
-    <connection id="fdbd48e4-a01c-4c14-b66e-911b8d4acb38">
-      <console name="Connection" type="STANDARD"><![CDATA[CREATE  TABLE "public".users (
-  username VARCHAR(45) NOT NULL ,
-  password VARCHAR(45) NOT NULL ,
-  enabled boolean NOT NULL DEFAULT true ,
-  PRIMARY KEY (username));]]></console>
-    </connection>
-  </component>
-  <component name="DBNavigator.Project.DatasetFilterManager">
-    <filter-list connection-id="fdbd48e4-a01c-4c14-b66e-911b8d4acb38" dataset="public.users" active-filter-id="55a6a915-d61f-4f5c-839b-10b0a5ea2767">
-      <filter id="55a6a915-d61f-4f5c-839b-10b0a5ea2767" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
-        <condition column="username" operator="=" value="" active="true" />
-      </filter>
-    </filter-list>
-    <filter-list connection-id="fdbd48e4-a01c-4c14-b66e-911b8d4acb38" dataset="public.Rooms" active-filter-id="" />
-    <filter-list connection-id="fdbd48e4-a01c-4c14-b66e-911b8d4acb38" dataset="public.user_roles" active-filter-id="EMPTY_FILTER" />
-  </component>
-=======
->>>>>>> 9656cae0261cf4536414f983f613c58e52262f78
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
   </component>
@@ -72,86 +47,7 @@
     <recently-used-interfaces />
   </component>
   <component name="DBNavigator.Project.Settings">
-<<<<<<< HEAD
-    <connections>
-      <connection id="fdbd48e4-a01c-4c14-b66e-911b8d4acb38" active="true">
-        <database>
-          <name value="Connection" />
-          <description value="" />
-          <database-type value="POSTGRES" />
-          <config-type value="BASIC" />
-          <database-version value="9.6" />
-          <driver-source value="BUILTIN" />
-          <driver-library value="" />
-          <driver value="" />
-          <url-type value="DATABASE" />
-          <host value="localhost" />
-          <port value="5432" />
-          <database value="BreakfastSale" />
-          <os-authentication value="false" />
-          <empty-password value="false" />
-          <user value="postgres" />
-          <password value="WHR2Z2JqeWZuMQ==" />
-        </database>
-        <properties>
-          <auto-commit value="false" />
-        </properties>
-        <ssh-settings>
-          <active value="false" />
-          <proxy-host value="" />
-          <proxy-port value="22" />
-          <proxy-user value="" />
-          <proxy-password value="" />
-          <auth-type value="PASSWORD" />
-          <key-file value="" />
-          <key-passphrase value="" />
-        </ssh-settings>
-        <details>
-          <charset value="UTF-8" />
-          <ddl-file-binding value="true" />
-          <database-logging value="true" />
-          <environment-type value="default" />
-          <idle-time-to-disconnect value="30" />
-          <password-expiry-time value="10" />
-          <max-connection-pool-size value="7" />
-          <alternative-statement-delimiter value="" />
-          <connect-automatically value="false" />
-        </details>
-        <object-filters hide-empty-schemas="false">
-          <object-type-filter use-master-settings="true">
-            <object-type name="SCHEMA" enabled="true" />
-            <object-type name="USER" enabled="true" />
-            <object-type name="ROLE" enabled="true" />
-            <object-type name="PRIVILEGE" enabled="true" />
-            <object-type name="CHARSET" enabled="true" />
-            <object-type name="TABLE" enabled="true" />
-            <object-type name="VIEW" enabled="true" />
-            <object-type name="MATERIALIZED_VIEW" enabled="true" />
-            <object-type name="NESTED_TABLE" enabled="true" />
-            <object-type name="COLUMN" enabled="true" />
-            <object-type name="INDEX" enabled="true" />
-            <object-type name="CONSTRAINT" enabled="true" />
-            <object-type name="DATASET_TRIGGER" enabled="true" />
-            <object-type name="DATABASE_TRIGGER" enabled="true" />
-            <object-type name="SYNONYM" enabled="true" />
-            <object-type name="SEQUENCE" enabled="true" />
-            <object-type name="PROCEDURE" enabled="true" />
-            <object-type name="FUNCTION" enabled="true" />
-            <object-type name="PACKAGE" enabled="true" />
-            <object-type name="TYPE" enabled="true" />
-            <object-type name="TYPE_ATTRIBUTE" enabled="true" />
-            <object-type name="ARGUMENT" enabled="true" />
-            <object-type name="DIMENSION" enabled="true" />
-            <object-type name="CLUSTER" enabled="true" />
-            <object-type name="DBLINK" enabled="true" />
-          </object-type-filter>
-          <object-name-filters />
-        </object-filters>
-      </connection>
-    </connections>
-=======
     <connections />
->>>>>>> 9656cae0261cf4536414f983f613c58e52262f78
     <browser-settings>
       <general>
         <display-mode value="TABBED" />
