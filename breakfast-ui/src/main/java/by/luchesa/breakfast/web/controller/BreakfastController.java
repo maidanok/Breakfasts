@@ -14,6 +14,9 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class BreakfastController {
 
+    @Autowired
+    private UsersMapper usersMapper;
+
 
     @RequestMapping(value = { "/", "/index**" }, method = RequestMethod.GET)
     public ModelAndView defaultPage() {
@@ -32,6 +35,7 @@ public class BreakfastController {
         ModelAndView model = new ModelAndView();
         model.addObject("title", "Spring Security Login Form - Database Authentication");
         model.addObject("message", "This page is for ROLE_ADMIN only!");
+        model.addAttribute("user", usersMapper.getUser("admin"));
         model.setViewName("admin");
         return model;
 
