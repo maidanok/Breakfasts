@@ -8,9 +8,9 @@
               http://www.springframework.org/schema/security/spring-security-4.2.xsd">
 
 
-    <import resource="spring-database-connector.xml"/>
+   <!-- <import resource="classpath*:/spring-database-connector.xml"/>-->
     <!-- Здесь располагаются элементы без префикса security: -->
-
+    <beans:import resource="spring-database-connector.xml"/>
     <http auto-config="true">
         <intercept-url pattern="/admin**" access="hasRole('ADMIN')" />
 
