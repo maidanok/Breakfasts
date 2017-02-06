@@ -11,4 +11,11 @@ repositories {
 }
 dependencies{
 
+
+    compile group: 'org.springframework', name: 'spring-core', version: '4.3.5.RELEASE'
+    compile group: 'org.springframework', name: 'spring-jdbc', version: '4.3.5.RELEASE'
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '3.3'
 }
