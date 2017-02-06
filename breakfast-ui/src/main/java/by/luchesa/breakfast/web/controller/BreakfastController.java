@@ -10,16 +10,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
-import by.luchesa.breakfast.dao.UsersMapper;
-import org.springframework.beans.factory.annotation.Autowired;
+//import by.luchesa.breakfast.dao.UsersMapper;
+//import org.springframework.beans.factory.annotation.Autowired;
 
 
 @Controller
 public class BreakfastController {
 
-    @Autowired
-    private UsersMapper usersMapper;
-
+ //**   @Autowired
+ //   private UsersMapper usersMapper;
 
     @RequestMapping(value = { "/", "/index**" }, method = RequestMethod.GET)
     public ModelAndView defaultPage() {
@@ -38,7 +37,7 @@ public class BreakfastController {
         ModelAndView model = new ModelAndView();
         model.addObject("title", "Spring Security Login Form - Database Authentication");
         model.addObject("message", "This page is for ROLE_ADMIN only!");
-        model.addObject("user", usersMapper.getUser("admin"));
+        //model.addObject("user", usersMapper.getUser("admin"));
         model.setViewName("admin");
         return model;
 
