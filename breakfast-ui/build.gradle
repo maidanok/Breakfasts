@@ -20,7 +20,11 @@ repositories {
 
 dependencies {
 
+<<<<<<< HEAD
     //compile project(':breakfast-data-layer')
+=======
+    compile project(':breakfast-data-layer')
+>>>>>>> Branch_93338eceda44a32bb774c74e0f9861adc89745ea
 
     compile group: 'org.springframework.security', name: 'spring-security-config', version: '4.2.1.RELEASE'
     compile group: 'org.springframework.security', name: 'spring-security-web', version: '4.2.1.RELEASE'

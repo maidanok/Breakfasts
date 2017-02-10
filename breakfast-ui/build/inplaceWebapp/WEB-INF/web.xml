@@ -29,7 +29,13 @@
     <context-param>
         <param-name>contextConfigLocation</param-name>
         <param-value>
+<<<<<<< HEAD
+            classpath:/by/luchesa/breakfast/web/controller/spring-security.xml
+            classpath:/by/luchesa/breakfast/datamodel/spring-database-connector.xml
+            classpath:/by/luchesa/breakfast/datamodel/spring-core-config.xml
+=======
             /WEB-INF/spring-database-connector.xml, /WEB-INF/spring-security.xml
+>>>>>>> remotes/origin/5c08d89a037b0d93a2449725928
         </param-value>
     </context-param>
 

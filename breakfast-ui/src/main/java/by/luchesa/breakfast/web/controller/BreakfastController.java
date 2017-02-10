@@ -10,15 +10,25 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
+<<<<<<< HEAD
 //import by.luchesa.breakfast.dao.UsersMapper;
 //import org.springframework.beans.factory.annotation.Autowired;
+=======
+import by.luchesa.breakfast.dao.UserMapper;
+import org.springframework.beans.factory.annotation.Autowired;
+>>>>>>> Branch_93338eceda44a32bb774c74e0f9861adc89745ea
 
 
 @Controller
 public class BreakfastController {
 
+<<<<<<< HEAD
  //**   @Autowired
  //   private UsersMapper usersMapper;
+=======
+    @Autowired
+    private UserMapper userMapper;
+>>>>>>> Branch_93338eceda44a32bb774c74e0f9861adc89745ea
 
     @RequestMapping(value = { "/", "/index**" }, method = RequestMethod.GET)
     public ModelAndView defaultPage() {
@@ -37,7 +47,11 @@ public class BreakfastController {
         ModelAndView model = new ModelAndView();
         model.addObject("title", "Spring Security Login Form - Database Authentication");
         model.addObject("message", "This page is for ROLE_ADMIN only!");
+<<<<<<< HEAD
         //model.addObject("user", usersMapper.getUser("admin"));
+=======
+        model.addObject("user", userMapper.getUser("admin"));
+>>>>>>> Branch_93338eceda44a32bb774c74e0f9861adc89745ea
         model.setViewName("admin");
         return model;
 

@@ -4,11 +4,20 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
        http://www.springframework.org/schema/context
+<<<<<<< HEAD
        http://www.springframework.org/schema/context/spring-context-4.3.xsd">
 
 
     <import resource="classpath:/by/luchesa/breakfast/datamodel/spring-database-connector.xml"/>
    <!-- <context:component-scan base-package="by.luchesa.breakfast.*" />-->
 
+=======
+       http://www.springframework.org/schema/context/spring-context-4.3.xsd"
+       default-autowire="byName">
+
+
+      <context:component-scan base-package="by.luchesa.breakfast.*" />
+      <context:annotation-config/>
+>>>>>>> Branch_93338eceda44a32bb774c74e0f9861adc89745ea
 </beans>
 

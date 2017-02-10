@@ -37,12 +37,16 @@
 </head>
 <body onload='document.loginForm.username.focus();'>
 
+<<<<<<< HEAD
 
 	<h1>Spring Security Custom Login Form (XML)</h1>
+=======
+	<h1>Spring Security Login Form (Database Authentication)</h1>
+>>>>>>> Branch_93338eceda44a32bb774c74e0f9861adc89745ea
 
 	<div id="login-box">
 
-		<h3>Login with Username and Password</h3>
+		<h2>Login with Username and Password</h2>
 
 	<h1>Spring Security Login Form (Database Authentication)</h1>
 
@@ -59,24 +63,23 @@
         <c:url var="loginUrl" value="/login" />
         <form action="${loginUrl}" method="post">
 
+		<table>
+			<tr>
+				<td>User:</td>
+				<td><input type='text' name='username'></td>
+			</tr>
+			<tr>
+				<td>Password:</td>
+				<td><input type='password' name='password' /></td>
+			</tr>
+			<tr>
+				<td colspan='2'><input name="submit" type="submit"
+				  value="submit" /></td>
+			</tr>
+		  </table>
 
-			<table>
-				<tr>
-					<td>User:</td>
-					<td><input type='text' name='username'></td>
-				</tr>
-				<tr>
-					<td>Password:</td>
-					<td><input type='password' name='password' /></td>
-				</tr>
-				<tr>
-					<td colspan='2'><input name="submit" type="submit"
-						value="submit" /></td>
-				</tr>
-			</table>
-
-			<input type="hidden" name="${_csrf.parameterName}"
-				value="${_csrf.token}" />
+		  <input type="hidden" name="${_csrf.parameterName}"
+			value="${_csrf.token}" />
 
 
 		</form>

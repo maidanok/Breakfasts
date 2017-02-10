@@ -37,16 +37,6 @@
 </head>
 <body onload='document.loginForm.username.focus();'>
 
-<<<<<<< HEAD
-
-	<h1>Spring Security Custom Login Form (XML)</h1>
-
-	<div id="login-box">
-
-		<h3>Login with Username and Password</h3>
-
-=======
->>>>>>> Branch_93338eceda44a32bb774c74e0f9861adc89745ea
 	<h1>Spring Security Login Form (Database Authentication)</h1>
 
 	<div id="login-box">
@@ -59,38 +49,18 @@
 		<c:if test="${not empty msg}">
 			<div class="msg">${msg}</div>
 		</c:if>
-        <c:url var="loginUrl" value="/login" />
-        <form action="${loginUrl}" method="post">
 
-<<<<<<< HEAD
+		<form name='loginForm'
+		  action="<c:url value='/j_spring_security_check' />" method='POST'>
 
-			<table>
-				<tr>
-					<td>User:</td>
-					<td><input type='text' name='username'></td>
-				</tr>
-				<tr>
-					<td>Password:</td>
-					<td><input type='password' name='password' /></td>
-				</tr>
-				<tr>
-					<td colspan='2'><input name="submit" type="submit"
-						value="submit" /></td>
-				</tr>
-			</table>
-
-			<input type="hidden" name="${_csrf.parameterName}"
-				value="${_csrf.token}" />
-
-=======
 		<table>
 			<tr>
 				<td>User:</td>
-				<td><input type='text' name='username'></td>
+				<td><input type='text' name='j_username'></td>
 			</tr>
 			<tr>
 				<td>Password:</td>
-				<td><input type='password' name='password' /></td>
+				<td><input type='password' name='j_password' /></td>
 			</tr>
 			<tr>
 				<td colspan='2'><input name="submit" type="submit"
@@ -100,14 +70,9 @@
 
 		  <input type="hidden" name="${_csrf.parameterName}"
 			value="${_csrf.token}" />
->>>>>>> Branch_93338eceda44a32bb774c74e0f9861adc89745ea
 
 		</form>
 	</div>
 
 </body>
-<<<<<<< HEAD
 </html>
-=======
-</html>
->>>>>>> Branch_93338eceda44a32bb774c74e0f9861adc89745ea
