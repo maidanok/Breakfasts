@@ -4,8 +4,8 @@
 <body>
 	<h1>Title : ${title}</h1>
 	<h1>Message : ${message}</h1>
-
-	<c:url value="/j_spring_security_logout" var="logoutUrl" />
+    <h1>Hello, dear ${user.userName}! Your password hash: ${user.password}. </h1>
+	<c:url value="/login" var="logoutUrl" />
 	<form action="${logoutUrl}" method="post" id="logoutForm">
 		<input type="hidden" name="${_csrf.parameterName}"
 			value="${_csrf.token}" />

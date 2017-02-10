@@ -7,10 +7,16 @@
               http://www.springframework.org/schema/security
               http://www.springframework.org/schema/security/spring-security-4.2.xsd">
 
+    <bean id="dataSource"
+          class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 
+        <property name="driverClassName" value="org.postgresql.Driver"/>
+        <property name="url" value="jdbc:postgresql://localhost:5432/BreakfastSale"/>
+        <property name="username" value="postgres"/>
+        <property name="password" value="Xtvgbjyfn1"/>
+    </bean>
 
     <!-- Здесь располагаются элементы без префикса security: -->
-
     <http auto-config="true">
         <intercept-url pattern="/admin**" access="hasRole('ADMIN')" />
 
@@ -21,9 +27,9 @@
                 username-parameter="username"
                 password-parameter="password" />
         <logout logout-success-url="/login?logout"  />
-        <!-- enable csrf protection -->
         <csrf/>
     </http>
+
 <!--
     <authentication-manager>
         <authentication-provider>
@@ -33,7 +39,7 @@
         </authentication-provider>
     </authentication-manager>
 -->
-    <!-- Select users and user_roles from database-->
+    <!-- Select users and user_roles from database -->
     <authentication-manager>
         <authentication-provider>
             <jdbc-user-service
@@ -45,5 +51,4 @@
                                        "SELECT username, role FROM user_roles WHERE username =?" />
         </authentication-provider>
     </authentication-manager>
-
 </beans:beans>
