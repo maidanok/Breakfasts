@@ -17,4 +17,13 @@
         WHERE
             id_breakfas=#{idBreakfast};
     </select>
+
+    <select id="getAllBreakfast">
+        SELECT
+            id_breakfast,
+            name_breakfast,
+            price
+        FROM
+            breakfast;
+    </select>
 </mapper>
