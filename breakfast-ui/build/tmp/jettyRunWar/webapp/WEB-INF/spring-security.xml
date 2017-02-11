@@ -25,16 +25,10 @@
        	                                                where u.id = au.user_id and u.username = ?" />
     </authentication-provider>
 
-<<<<<<< HEAD
 
 
     <http auto-config="true" use-expressions="true">
         <intercept-url pattern="/**" access="ROLE_USER" />
-=======
--->
-    <http auto-config="true" use-expressions="true">
-        <intercept-url pattern="/admin**" access="ROLE_USER" />
->>>>>>> 2c17667e0b5b20b048fda1f89ff32b6a009afec2
     </http>
 
     <authentication-manager>
@@ -43,7 +37,6 @@
                 <user name="mkyong" password="123456" authorities="ROLE_USER" />
             </user-service>
         </authentication-provider>
-<<<<<<< HEAD
     </authentication-manager>-->
 
     <http auto-config="true" use-expressions="true">
@@ -76,7 +69,5 @@
                                authorities-by-username-query=
                                        "SELECT username, role FROM user_roles WHERE username =?" />
         </authentication-provider>
-=======
->>>>>>> 2c17667e0b5b20b048fda1f89ff32b6a009afec2
     </authentication-manager>
 </beans:beans>

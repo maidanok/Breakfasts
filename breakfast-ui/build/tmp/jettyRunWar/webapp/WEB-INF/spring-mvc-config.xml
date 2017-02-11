@@ -11,11 +11,7 @@
         http://www.springframework.org/schema/context/spring-context-4.3.xsd ">
 
     <context:component-scan base-package="by.luchesa.breakfast.*" />
-<<<<<<< HEAD
    <!-- <context:annotation-config />-->
-=======
-    <context:annotation-config />
->>>>>>> 2c17667e0b5b20b048fda1f89ff32b6a009afec2
     <bean
             class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix">

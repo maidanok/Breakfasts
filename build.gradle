@@ -2,16 +2,15 @@ group 'Breakfast'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
-apply plugin: 'application'
 apply plugin: 'idea'
-apply plugin: 'project-report'
-
-htmlDependencyReport {
-    projects = project.allprojects
-}
 
 
 
 repositories {
     mavenCentral()
+}
+
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '3.3'
 }

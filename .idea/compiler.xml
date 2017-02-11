@@ -18,5 +18,13 @@
         <processorPath useClasspath="true" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="breakfast-data-layer_main" target="1.8" />
+      <module name="breakfast-data-layer_test" target="1.8" />
+      <module name="breakfast-ui_main" target="1.8" />
+      <module name="breakfast-ui_test" target="1.8" />
+      <module name="Breakfast_main" target="1.8" />
+      <module name="Breakfast_test" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

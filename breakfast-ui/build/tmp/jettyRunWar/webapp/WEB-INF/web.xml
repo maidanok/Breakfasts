@@ -33,11 +33,7 @@
     <context-param>
         <param-name>contextConfigLocation</param-name>
         <param-value>
-<<<<<<< HEAD
             /WEB-INF/spring-security.xml, /WEB-INF/spring-mvc-config.xml, /WEB-INF/spring-database-connector.xml
-=======
-            /WEB-INF/spring-security.xml, /WEB-INF/spring-mvc-config.xml
->>>>>>> 2c17667e0b5b20b048fda1f89ff32b6a009afec2
         </param-value>
     </context-param>
 
@@ -48,18 +44,10 @@
 		</filter-class>
 	</filter>
 
-<<<<<<< HEAD
     <filter-mapping>
         <filter-name>springSecurityFilterChain</filter-name>
         <url-pattern>/*</url-pattern>
     </filter-mapping>
-=======
-	<filter-mapping>
-		<filter-name>springSecurityFilterChain</filter-name>
-		<url-pattern>/*</url-pattern>
-	</filter-mapping>
-
->>>>>>> 2c17667e0b5b20b048fda1f89ff32b6a009afec2
 
 
 
