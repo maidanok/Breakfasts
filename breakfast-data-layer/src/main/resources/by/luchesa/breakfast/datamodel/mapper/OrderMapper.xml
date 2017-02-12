@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+        <mapper namespace="by.luchesa.breakfast.dao.OrderMapper">
+    <resultMap id="order" type="by.luchesa.breakfast.datamodel.Order">
+        <id property="idOrder" column="id_order"/>
+        <result column="date_order" property="dateOrder"/>
+        <result column="was_spent" property="wasSpent"/>
+        <association property="breakfast" column="id_breakfast"
+                     javaType="by.luchesa.breakfast.datamodel.Breakfast"
+                     select="by.luchesa.breakfast.dao.BreakfastMapper.getBreakfastId"
+                     fetchType="eager"/>
+        <association property="room" column="room"
+                     javaType="by.luchesa.breakfast.datamodel.Room"
+                     select="by.luchesa.breakfast.dao.RoomMapper.getRoom"
+                     fetchType="eager"/>
+    </resultMap>
+
+    <select id="getOrderByDate" parameterType="java.util.Date" resultMap="order">
+        SELECT
+            *
+        FROM
+            order
+        WHERE
+            date_order=#{dateOrder};
+    </select>
+
+    <select id="getOrderById" parameterType="java.lang.Integer" resultMap="order">
+        SELECT
+            *
+        FROM
+            order
+        WHERE
+            id_order=#{idOrder};
+    </select>
+    
+    
+    <insert id="insertOrder">
+        INSERT 
+            into "order" (id_breakfast, room, date_order, was_spent)
+        VALUES
+            (#{order.breakfast.idBreakfast}, #{order.room.room}, #{dateOrder}, 'false');
+    </insert>
+    
+    <update id="completeTheOrder">
+        UPDATE "order"
+        SET
+            was_spent='true'
+        WHERE
+            id_order=#{idOrder};
+    </update>
+
+</mapper>

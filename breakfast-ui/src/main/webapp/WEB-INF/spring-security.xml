@@ -37,9 +37,9 @@
                     id="userService"
                     data-source-ref="dataSource"
                                users-by-username-query=
-                                       "SELECT user_id, username, password, enabled, user_role_id FROM users WHERE username=?"
+                                       "SELECT username, password, enabled FROM users WHERE username=?;"
                                authorities-by-username-query=
-                                       "SELECT user_role_id, role FROM user_roles WHERE user.user_roleusername =?" />
+                                       "SELECT username, role FROM users, user_roles WHERE users.user_role_id=user_roles.user_role_id AND username=?;" />
         </authentication-provider>
     </authentication-manager>
 </beans:beans>

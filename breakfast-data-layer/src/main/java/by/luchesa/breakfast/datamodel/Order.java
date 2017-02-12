@@ -5,7 +5,7 @@ import java.util.Date;
 /**
  * Created by Admin on 10.02.2017.
  */
-public class Oreder {
+public class Order {
     private int idOrder;
     private Date dateOrder;
     private Breakfast breakfast;
