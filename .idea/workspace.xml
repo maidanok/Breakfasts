@@ -2,39 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d81d3777-af2e-4979-8f61-95866a642931" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/breakfast-data-layer/build/classes/main/by/luchesa/breakfast/dao/OrderMapper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/breakfast-data-layer/build/classes/main/by/luchesa/breakfast/datamodel/Order.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/breakfast-ui/build/classes/main/by/luchesa/breakfast/web/security/MySimpleUrlAuthenticationSuccessHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/breakfast-data-layer/build/resources/main/by/luchesa/breakfast/datamodel/mapper/OrderMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/breakfast-ui/build/inplaceWebapp/WEB-INF/views/jsp/reception.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/breakfast-ui/build/inplaceWebapp/WEB-INF/views/jsp/restaurant.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/breakfast-ui/src/main/java/by/luchesa/breakfast/web/security/MySimpleUrlAuthenticationSuccessHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/breakfast-ui/src/main/resources/BreakfastCss.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/breakfast-ui/src/main/webapp/WEB-INF/views/jsp/reception.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/breakfast-ui/src/main/webapp/WEB-INF/views/jsp/restaurant.jsp" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/breakfast-ui/build/serverBaseDir_tomcat8/work/Tomcat/localhost/breakfast-ui/SESSIONS.ser" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/breakfast-data-layer/build/classes/main/by/luchesa/breakfast/datamodel/Oreder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/breakfast-ui/build/inplaceWebapp/WEB-INF/spring-database-connector.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/breakfast-ui/build/inplaceWebapp/WEB-INF/views/css/BreakfastCss.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/breakfast-ui/build/inplaceWebapp/WEB-INF/views/jsp/BreakfastCss.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/breakfast-ui/build/inplaceWebapp/resources/BreakfastCss.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/breakfast-ui/build/serverBaseDir_tomcat8/work/Tomcat/localhost/breakfast-ui/org/apache/jsp/WEB_002dINF/views/jsp/index_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/breakfast-ui/build/serverBaseDir_tomcat8/work/Tomcat/localhost/breakfast-ui/org/apache/jsp/WEB_002dINF/views/jsp/index_jsp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/breakfast-ui/build/serverBaseDir_tomcat8/work/Tomcat/localhost/breakfast-ui/org/apache/jsp/WEB_002dINF/views/jsp/restaurant_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/breakfast-ui/build/serverBaseDir_tomcat8/work/Tomcat/localhost/breakfast-ui/org/apache/jsp/WEB_002dINF/views/jsp/restaurant_jsp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/breakfast-ui/build/tmp/jettyRunWar/webapp/WEB-INF/spring-mvc-config.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/breakfast-ui/build/tmp/jettyRunWar/webapp/WEB-INF/spring-security.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/breakfast-ui/build/tmp/jettyRunWar/webapp/WEB-INF/views/jsp/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/breakfast-ui/build/tmp/jettyRunWar/webapp/WEB-INF/views/jsp/login.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/breakfast-ui/build/tmp/jettyRunWar/webapp/WEB-INF/web.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-data-layer/build/libs/breakfast-data-layer-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/breakfast-data-layer/build/libs/breakfast-data-layer-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-ui/build/classes/main/by/luchesa/breakfast/web/controller/BreakfastController.class" afterPath="$PROJECT_DIR$/breakfast-ui/build/classes/main/by/luchesa/breakfast/web/controller/BreakfastController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-data-layer/build/libs/breakfast-data-layer-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/breakfast-data-layer/build/libs/breakfast-data-layer-1.0-SNAPSHOT.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-ui/build/libs/breakfast-ui-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/breakfast-ui/build/libs/breakfast-ui-1.0-SNAPSHOT.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-ui/build/serverBaseDir_tomcat8/work/Tomcat/localhost/breakfast-ui/SESSIONS.ser" afterPath="$PROJECT_DIR$/breakfast-ui/build/serverBaseDir_tomcat8/work/Tomcat/localhost/breakfast-ui/SESSIONS.ser" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-ui/build/serverBaseDir_tomcat8/work/Tomcat/localhost/breakfast-ui/org/apache/jsp/WEB_002dINF/views/jsp/admin_jsp.class" afterPath="$PROJECT_DIR$/breakfast-ui/build/serverBaseDir_tomcat8/work/Tomcat/localhost/breakfast-ui/org/apache/jsp/WEB_002dINF/views/jsp/admin_jsp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-ui/build/serverBaseDir_tomcat8/work/Tomcat/localhost/breakfast-ui/org/apache/jsp/WEB_002dINF/views/jsp/index_jsp.class" afterPath="$PROJECT_DIR$/breakfast-ui/build/serverBaseDir_tomcat8/work/Tomcat/localhost/breakfast-ui/org/apache/jsp/WEB_002dINF/views/jsp/index_jsp.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-ui/build/serverBaseDir_tomcat8/work/Tomcat/localhost/breakfast-ui/org/apache/jsp/WEB_002dINF/views/jsp/login_jsp.class" afterPath="$PROJECT_DIR$/breakfast-ui/build/serverBaseDir_tomcat8/work/Tomcat/localhost/breakfast-ui/org/apache/jsp/WEB_002dINF/views/jsp/login_jsp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/libs/Breakfast-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/build/libs/Breakfast-1.0-SNAPSHOT.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-ui/build/inplaceWebapp/WEB-INF/breakfast-dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/breakfast-ui/build/inplaceWebapp/WEB-INF/breakfast-dispatcher-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-ui/build/inplaceWebapp/WEB-INF/spring-security.xml" afterPath="$PROJECT_DIR$/breakfast-ui/build/inplaceWebapp/WEB-INF/spring-security.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-data-layer/build/tmp/war/MANIFEST.MF" afterPath="$PROJECT_DIR$/breakfast-data-layer/build/tmp/war/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-ui/build.gradle" afterPath="$PROJECT_DIR$/breakfast-ui/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-ui/build/inplaceWebapp/WEB-INF/views/jsp/admin.jsp" afterPath="$PROJECT_DIR$/breakfast-ui/build/inplaceWebapp/WEB-INF/views/jsp/admin.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-ui/build/inplaceWebapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/breakfast-ui/build/inplaceWebapp/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-ui/build/serverBaseDir_tomcat8/work/Tomcat/localhost/breakfast-ui/org/apache/jsp/WEB_002dINF/views/jsp/admin_jsp.java" afterPath="$PROJECT_DIR$/breakfast-ui/build/serverBaseDir_tomcat8/work/Tomcat/localhost/breakfast-ui/org/apache/jsp/WEB_002dINF/views/jsp/admin_jsp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-ui/build/serverBaseDir_tomcat8/work/Tomcat/localhost/breakfast-ui/org/apache/jsp/WEB_002dINF/views/jsp/index_jsp.java" afterPath="$PROJECT_DIR$/breakfast-ui/build/serverBaseDir_tomcat8/work/Tomcat/localhost/breakfast-ui/org/apache/jsp/WEB_002dINF/views/jsp/index_jsp.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-ui/build/serverBaseDir_tomcat8/work/Tomcat/localhost/breakfast-ui/org/apache/jsp/WEB_002dINF/views/jsp/login_jsp.java" afterPath="$PROJECT_DIR$/breakfast-ui/build/serverBaseDir_tomcat8/work/Tomcat/localhost/breakfast-ui/org/apache/jsp/WEB_002dINF/views/jsp/login_jsp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-ui/src/main/java/by/luchesa/breakfast/web/controller/BreakfastController.java" afterPath="$PROJECT_DIR$/breakfast-ui/src/main/java/by/luchesa/breakfast/web/controller/BreakfastController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-ui/src/main/webapp/WEB-INF/breakfast-dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/breakfast-ui/src/main/webapp/WEB-INF/breakfast-dispatcher-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-ui/src/main/webapp/WEB-INF/spring-security.xml" afterPath="$PROJECT_DIR$/breakfast-ui/src/main/webapp/WEB-INF/spring-security.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-ui/build/serverBaseDir_tomcat8/work/Tomcat/localhost/breakfast-ui/org/apache/jsp/WEB_002dINF/views/jsp/reception_jsp.java" afterPath="$PROJECT_DIR$/breakfast-ui/build/serverBaseDir_tomcat8/work/Tomcat/localhost/breakfast-ui/org/apache/jsp/WEB_002dINF/views/jsp/reception_jsp.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-ui/src/main/webapp/WEB-INF/views/jsp/admin.jsp" afterPath="$PROJECT_DIR$/breakfast-ui/src/main/webapp/WEB-INF/views/jsp/admin.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-ui/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/breakfast-ui/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" />
     </list>
     <ignored path="Breakfast.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,43 +71,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MySimpleUrlAuthenticationSuccessHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/breakfast-ui/src/main/java/by/luchesa/breakfast/web/security/MySimpleUrlAuthenticationSuccessHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="76" column="30" lean-forward="false" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-security.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/breakfast-ui/src/main/webapp/WEB-INF/spring-security.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="15" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/breakfast-ui/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="admin.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/breakfast-ui/src/main/webapp/WEB-INF/views/jsp/admin.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="51" lean-forward="true" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+            <state relative-caret-position="306">
+              <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="403.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/breakfast-ui/src/main/webapp/WEB-INF/views/jsp/403.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -115,50 +94,18 @@
       <file leaf-file-name="BreakfastCss.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/breakfast-ui/src/main/resources/BreakfastCss.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+            <state relative-caret-position="323">
+              <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BreakfastController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/breakfast-ui/src/main/java/by/luchesa/breakfast/web/controller/BreakfastController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="65" column="5" lean-forward="true" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="breakfast-dispatcher-servlet.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="breakfast-dispatcher-servlet.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/breakfast-ui/src/main/webapp/WEB-INF/breakfast-dispatcher-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-core-config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/breakfast-data-layer/src/main/resources/by/luchesa/breakfast/datamodel/spring-core-config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-database-connector.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/breakfast-data-layer/src/main/resources/by/luchesa/breakfast/datamodel/spring-database-connector.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="52" lean-forward="false" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+            <state relative-caret-position="408">
+              <caret line="24" column="64" lean-forward="false" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -196,8 +143,6 @@
         <option value="$PROJECT_DIR$/breakfast-ui/src/main/resources/by/luchesa/breakfast/web/controller/spring-security.xml" />
         <option value="$PROJECT_DIR$/breakfast-ui/src/main/resources/by/luchesa/breakfast/web/controller/spring-database-connector.xml" />
         <option value="$PROJECT_DIR$/breakfast-ui/src/main/resources/by/luchesa/breakfast/web/controller/breakfast-dispatcher-servlet.xml" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/breakfast-ui/build.gradle" />
         <option value="$PROJECT_DIR$/breakfast-data-layer/src/main/resources/by/luchesa/breakfast/datamodel/spring-core-config.xml" />
         <option value="$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/dao/UsersMapper.java" />
         <option value="$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/dao/UserMapper.java" />
@@ -217,11 +162,14 @@
         <option value="$PROJECT_DIR$/breakfast-ui/src/main/webapp/WEB-INF/views/jsp/restaurant.jsp" />
         <option value="$PROJECT_DIR$/breakfast-ui/src/main/webapp/WEB-INF/spring-security.xml" />
         <option value="$PROJECT_DIR$/breakfast-ui/src/main/java/by/luchesa/breakfast/web/security/MySimpleUrlAuthenticationSuccessHandler.java" />
-        <option value="$PROJECT_DIR$/breakfast-ui/src/main/java/by/luchesa/breakfast/web/controller/BreakfastController.java" />
         <option value="$PROJECT_DIR$/breakfast-ui/src/main/webapp/WEB-INF/views/css/BreakfastCss.css" />
         <option value="$PROJECT_DIR$/breakfast-ui/src/main/webapp/WEB-INF/views/jsp/BreakfastCss.css" />
-        <option value="$PROJECT_DIR$/breakfast-ui/src/main/webapp/WEB-INF/views/jsp/admin.jsp" />
         <option value="$PROJECT_DIR$/breakfast-ui/src/main/webapp/WEB-INF/breakfast-dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/breakfast-ui/build.gradle" />
+        <option value="$PROJECT_DIR$/breakfast-ui/src/main/java/by/luchesa/breakfast/web/controller/BreakfastController.java" />
+        <option value="$PROJECT_DIR$/breakfast-ui/src/main/resources/BreakfastCss.css" />
+        <option value="$PROJECT_DIR$/breakfast-ui/src/main/webapp/WEB-INF/views/jsp/admin.jsp" />
       </list>
     </option>
   </component>
@@ -256,6 +204,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -395,10 +346,6 @@
               <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="security" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -448,29 +395,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Breakfast" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="breakfast-data-layer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="breakfast-data-layer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -789,7 +715,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -804,7 +730,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2936893" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2985437" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -889,13 +815,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/breakfast-ui/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="14" lean-forward="false" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -909,13 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -947,13 +859,6 @@
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/javafx-src.zip!/javafx/application/Application.java" />
     <entry file="file://$PROJECT_DIR$/breakfast-ui/src/main/java/resources/by/luchesa/breakfast/web/controller/spring-security.xml" />
     <entry file="file://$PROJECT_DIR$/breakfast-ui/src/main/java/resources/by/luchesa/breakfast/web/controller/breakfast-dispatcher-servlet.xml" />
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/breakfast-ui/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -975,13 +880,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/breakfast-ui/src/main/webapp/WEB-INF/views/jsp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1066,7 +964,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1074,31 +971,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="17" column="25" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/breakfast-ui/src/main/webapp/WEB-INF/views/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/breakfast-ui/src/main/webapp/WEB-INF/views/jsp/reception.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/breakfast-ui/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1112,7 +984,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/breakfast-ui/src/main/java/by/luchesa/breakfast/web/security/MySimpleUrlAuthenticationSuccessHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
+        <state relative-caret-position="1054">
           <caret line="76" column="30" lean-forward="false" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1124,40 +996,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/breakfast-ui/src/main/webapp/WEB-INF/views/jsp/admin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="51" lean-forward="true" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/breakfast-ui/src/main/java/by/luchesa/breakfast/web/controller/BreakfastController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="65" column="5" lean-forward="true" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/breakfast-ui/src/main/resources/BreakfastCss.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/breakfast-ui/src/main/webapp/WEB-INF/spring-security.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
-          <caret line="27" column="15" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+          <caret line="27" column="15" lean-forward="false" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -1178,18 +1023,100 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/breakfast-ui/src/main/java/by/luchesa/breakfast/web/controller/BreakfastController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-104">
+          <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/breakfast-ui/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/breakfast-ui/src/main/webapp/WEB-INF/views/jsp/reception.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/breakfast-ui/src/main/webapp/WEB-INF/views/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/breakfast-ui/src/main/webapp/WEB-INF/views/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/breakfast-ui/src/main/webapp/WEB-INF/views/jsp/403.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/breakfast-data-layer/src/main/resources/by/luchesa/breakfast/datamodel/spring-core-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="187">
+          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/breakfast-ui/src/main/resources/BreakfastCss.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/breakfast-ui/src/main/webapp/WEB-INF/breakfast-dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="408">
+          <caret line="24" column="64" lean-forward="false" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/breakfast-ui/src/main/webapp/WEB-INF/views/jsp/admin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
           <folding />
         </state>
       </provider>

@@ -1,6 +1,8 @@
 group 'breakfast-ui'
 version '1.0-SNAPSHOT'
-
+apply plugin: 'java'
+apply plugin: 'org.akhikhl.gretty'
+apply plugin: 'war'
 
 buildscript {
     repositories {
@@ -11,9 +13,6 @@ buildscript {
     }
 }
 
-apply plugin: 'java'
-apply plugin: 'org.akhikhl.gretty'
-apply plugin: 'war'
 repositories {
     mavenCentral()
 }

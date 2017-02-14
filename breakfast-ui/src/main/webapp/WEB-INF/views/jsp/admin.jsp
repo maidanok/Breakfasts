@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="BreakfastCss.css">
+    <link rel="stylesheet" href="<c:url value="/resources/BreakfastCss.css" />">
 </head>
 <body>
 	<h1>Title : ${title}</h1>
