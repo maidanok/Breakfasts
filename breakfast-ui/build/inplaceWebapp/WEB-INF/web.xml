@@ -29,7 +29,6 @@
     <context-param>
         <param-name>contextConfigLocation</param-name>
         <param-value>
-            classpath:/by/luchesa/breakfast/datamodel/spring-database-connector.xml,
             /WEB-INF/spring-security.xml,
             classpath:/by/luchesa/breakfast/datamodel/spring-core-config.xml
         </param-value>

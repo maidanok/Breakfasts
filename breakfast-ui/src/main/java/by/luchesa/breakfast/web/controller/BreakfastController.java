@@ -22,7 +22,7 @@ public class BreakfastController {
     private UserMapper userMapper;
 
 
-    @RequestMapping(value = { "/", "/index**" }, method = RequestMethod.GET)
+    /*@RequestMapping(value = { "/", "/index**" }, method = RequestMethod.GET)
     public ModelAndView defaultPage() {
 
         ModelAndView model = new ModelAndView();
@@ -32,7 +32,27 @@ public class BreakfastController {
         return model;
 
     }
+*/
+    @RequestMapping(value = { "/reception**" }, method = RequestMethod.GET)
+    public ModelAndView reception() {
 
+        ModelAndView model = new ModelAndView();
+        model.addObject("title", "Spring Security Login Form - Database Authentication");
+        model.addObject("message", "This is reception page!");
+        model.setViewName("reception");
+        return model;
+
+    }
+    @RequestMapping(value = { "/restaurant**" }, method = RequestMethod.GET)
+    public ModelAndView restaurant() {
+
+        ModelAndView model = new ModelAndView();
+        model.addObject("title", "Spring Security Login Form - Database Authentication");
+        model.addObject("message", "This is Garcon page!");
+        model.setViewName("restaurant");
+        return model;
+
+    }
     @RequestMapping(value = "/admin**", method = RequestMethod.GET)
     public ModelAndView adminPage() {
 
@@ -45,7 +65,7 @@ public class BreakfastController {
 
     }
 
-    @RequestMapping(value = "/login", method = RequestMethod.GET)
+    @RequestMapping(value = {"/", "/login"}, method = RequestMethod.GET)
     public ModelAndView login(@RequestParam(value = "error", required = false) String error,
                               @RequestParam(value = "logout", required = false) String logout) {
 
