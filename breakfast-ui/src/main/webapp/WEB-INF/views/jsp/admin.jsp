@@ -3,12 +3,12 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="<c:url value="/resources/BreakfastCss.css" />">
+    <link rel="stylesheet" href="<c:url value="/resources/css/BreakfastCss.css" />">
 </head>
 <body>
 	<h1>Title : ${title}</h1>
 	<h1>Message : ${message}</h1>
-    <h1>Hello, dear ${user.userName}! Your password hash: ${user.password} You Role is ${user.userRoles.role}. </h1>
+    <h1><letter>H</letter>ello, dear &#1086;&#1088;&#1083;&#1088; ${user.userName}! Your password hash: ${user.password} You Role is ${user.userRoles.role}. </h1>
 	<c:url value="/login" var="logoutUrl" />
 	<form action="${logoutUrl}" method="post" id="logoutForm">
 		<input type="hidden" name="${_csrf.parameterName}"

@@ -10,7 +10,8 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context-4.3.xsd ">
 
-   <context:component-scan base-package="by.luchesa.breakfast.*" />
+    <context:component-scan base-package="by.luchesa.breakfast.*" />
+    <mvc:annotation-driven />
    <!-- <context:annotation-config />-->
     <bean
             class="org.springframework.web.servlet.view.InternalResourceViewResolver">
@@ -22,8 +23,11 @@
         </property>
     </bean>
 
+
+    <mvc:default-servlet-handler />
+
     <mvc:resources mapping="/resources/**" location="/resources/" />
-    <mvc:annotation-driven />
+
 
    <!-- <import resource="classpath:/by/luchesa/breakfast/datamodel/spring-database-connector.xml"/>-->
    <!-- <import resource="classpath:by/luchesa/breakfast/web/controller/spring-security.xml" />-->
