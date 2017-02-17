@@ -1,6 +1,8 @@
 group 'breakfast-ui'
 version '1.0-SNAPSHOT'
-
+apply plugin: 'java'
+apply plugin: 'org.akhikhl.gretty'
+apply plugin: 'war'
 
 buildscript {
     repositories {
@@ -11,9 +13,6 @@ buildscript {
     }
 }
 
-apply plugin: 'java'
-apply plugin: 'org.akhikhl.gretty'
-apply plugin: 'war'
 repositories {
     mavenCentral()
 }
@@ -41,3 +40,4 @@ dependencies {
     compile group: 'postgresql', name: 'postgresql', version: '9.1-901-1.jdbc4'
     compile group: 'org.postgresql', name: 'postgresql', version: '9.4.1212'
 }
+

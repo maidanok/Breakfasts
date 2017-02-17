@@ -9,18 +9,27 @@
 
     <!-- Здесь располагаются элементы без префикса security: -->
     <http auto-config="true">
-        <intercept-url pattern="/admin**" access="hasRole('ADMIN')" />
+        <intercept-url pattern="/login" access="permitAll"/>
+        <intercept-url pattern="/**" access="isAuthenticated()"/>
+        <intercept-url pattern="/admin**" access="hasRole('ADMIN')"/>
+        <intercept-url pattern="/reception**" access="hasRole('RECEPTION')"/>
+        <intercept-url pattern="/restaurant**" access="hasRole('GARCON')"/>
 
+
+        <!--default-target-url="/index"-->
         <form-login
                 login-page="/login"
-                default-target-url="/index"
+                authentication-success-handler-ref="myAuthenticationSuccessHandler"
                 authentication-failure-url="/login?error"
                 username-parameter="username"
-                password-parameter="password" />
+                password-parameter="password"
+        />
         <logout logout-success-url="/login?logout"  />
         <csrf/>
     </http>
 
+    <beans:bean id="myAuthenticationSuccessHandler"
+                class="by.luchesa.breakfast.web.security.MySimpleUrlAuthenticationSuccessHandler"/>
 <!--
     <authentication-manager>
         <authentication-provider>
