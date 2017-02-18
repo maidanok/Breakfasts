@@ -2,8 +2,17 @@
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../breakfast-service" />
+    <content url="file://$MODULE_DIR$/../../breakfast-service">
+      <sourceFolder url="file://$MODULE_DIR$/../../breakfast-service/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../breakfast-service/src/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../breakfast-service/src/main/resources" type="java-resource" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-tx:4.3.5.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.ant:ant:1.9.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-context:4.3.5.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-beans:4.3.5.RELEASE" level="project" />
+    <orderEntry type="module" module-name="breakfast-data-layer_main" />
   </component>
 </module>

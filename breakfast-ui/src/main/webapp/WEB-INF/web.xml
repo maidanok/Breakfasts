@@ -31,6 +31,7 @@
         <param-value>
             /WEB-INF/spring-security.xml,
             classpath:/by/luchesa/breakfast/datamodel/spring-core-config.xml
+            classpath:/by/luchesa/breakfast/service/spring-service-config.xml
         </param-value>
     </context-param>
 

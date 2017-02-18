@@ -24,4 +24,11 @@
         WHERE
             floor=#{floor};
     </select>
+
+    <select id="getAllFlor" resultType="java.lang.Integer">
+        SELECT floor
+        FROM rooms
+        GROUP BY floor
+        ORDER BY floor;
+    </select>
 </mapper>

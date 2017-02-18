@@ -12,5 +12,15 @@
       <context:component-scan base-package="by.luchesa.breakfast.*" />
       <context:annotation-config/>
 
+    <bean id="userMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+        <property name="mapperInterface" value="by.luchesa.breakfast.dao.UserMapper"/>
+        <property name="sqlSessionFactory" ref="sessionFactory"/>
+    </bean>
+
+    <bean id="roomMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+        <property name="mapperInterface" value="by.luchesa.breakfast.dao.RoomMapper"/>
+        <property name="sqlSessionFactory" ref="sessionFactory"/>
+    </bean>
+
 </beans>
 

@@ -3,7 +3,6 @@ package by.luchesa.breakfast.dao;
 import by.luchesa.breakfast.datamodel.Room;
 
 import java.util.List;
-import java.lang.Integer;
 /**
  * Created by Admin on 10.02.2017.
  */
@@ -12,4 +11,5 @@ public interface RoomMapper {
     Room getRoom(int room);
 //метод вернет список комнат на этаже
     List<Room> getRoomsOnTheFloor(int floor);
+    List<Integer> getAllFlor();
 }
