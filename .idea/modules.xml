@@ -4,13 +4,13 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Breakfast_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Breakfast_main.iml" group="Breakfast" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Breakfast_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Breakfast_test.iml" group="Breakfast" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/breakfast-data-layer/breakfast-data-layer.iml" filepath="$PROJECT_DIR$/.idea/modules/breakfast-data-layer/breakfast-data-layer.iml" group="breakfast-data-layer" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/breakfast-data-layer/breakfast-data-layer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/breakfast-data-layer/breakfast-data-layer_main.iml" group="breakfast-data-layer" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/breakfast-data-layer/breakfast-data-layer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/breakfast-data-layer/breakfast-data-layer_test.iml" group="breakfast-data-layer" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/breakfast-service.iml" filepath="$PROJECT_DIR$/.idea/modules/breakfast-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/breakfast-ui/breakfast-ui.iml" filepath="$PROJECT_DIR$/.idea/modules/breakfast-ui/breakfast-ui.iml" group="breakfast-ui" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/breakfast-ui/breakfast-ui_main.iml" filepath="$PROJECT_DIR$/.idea/modules/breakfast-ui/breakfast-ui_main.iml" group="breakfast-ui" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/breakfast-ui/breakfast-ui_test.iml" filepath="$PROJECT_DIR$/.idea/modules/breakfast-ui/breakfast-ui_test.iml" group="breakfast-ui" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/breakfast-data-layer/breakfast-data-layer.iml" filepath="$PROJECT_DIR$/.idea/modules/breakfast-data-layer/breakfast-data-layer.iml" group="Breakfast" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/breakfast-data-layer/breakfast-data-layer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/breakfast-data-layer/breakfast-data-layer_main.iml" group="Breakfast" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/breakfast-data-layer/breakfast-data-layer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/breakfast-data-layer/breakfast-data-layer_test.iml" group="Breakfast" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/breakfast-service.iml" filepath="$PROJECT_DIR$/.idea/modules/breakfast-service.iml" group="Breakfast" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/breakfast-ui/breakfast-ui.iml" filepath="$PROJECT_DIR$/.idea/modules/breakfast-ui/breakfast-ui.iml" group="Breakfast" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/breakfast-ui/breakfast-ui_main.iml" filepath="$PROJECT_DIR$/.idea/modules/breakfast-ui/breakfast-ui_main.iml" group="Breakfast" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/breakfast-ui/breakfast-ui_test.iml" filepath="$PROJECT_DIR$/.idea/modules/breakfast-ui/breakfast-ui_test.iml" group="Breakfast" />
     </modules>
   </component>
 </project>
