@@ -11,11 +11,13 @@ import java.util.List;
 public interface OrderMapper {
     List<Order> getOrderByDate(Date dateOrder);
 
+    List<Order> getOrderByDateAndFloor(Date dateOrder, int floor);
+
     Order getOrderById(int idOrder);
 
     void insertOrder(Order order);
 
-    void completeTheOrder();
+    void completeTheOrder(int idOrder);
 
 
 }

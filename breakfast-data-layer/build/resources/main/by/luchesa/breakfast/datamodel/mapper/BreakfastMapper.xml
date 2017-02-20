@@ -18,6 +18,7 @@
             id_breakfas=#{idBreakfast};
     </select>
 
+
     <select id="getAllBreakfast">
         SELECT
             id_breakfast,
@@ -26,4 +27,30 @@
         FROM
             breakfast;
     </select>
+
+
+    <insert id="addNewBreakfast">
+        INSERT
+            INTO "breakfast" (name_breakfast, price)
+        VALUES
+            (#{breakfast.nameBreakfast}, #{breakfast.price});
+    </insert>
+
+
+    <delete id="deleteBreakfast">
+        DELETE FROM "breakfast"
+        WHERE id_breakfast=#{breakfast.idBreakfast};
+    </delete>
+
+
+    <update id="setNewPrice">
+        UPDATE "breakfast"
+        SET
+            price=#{breakfast.price}
+        WHERE
+            id_breakfast=#{breakfast.idBreakfast};
+    </update>
+
+
+
 </mapper>

@@ -1,2 +1,2 @@
 rootProject.name = 'Breakfast'
-include 'breakfast-data-layer', 'breakfast-servise', 'breakfast-ui'
+include 'breakfast-data-layer', 'breakfast-service', 'breakfast-ui'

@@ -41,7 +41,7 @@
             (#{order.breakfast.idBreakfast}, #{order.room.room}, #{dateOrder}, 'false');
     </insert>
     
-    <update id="completeTheOrder">
+    <update id="completeTheOrder" parameterType="java.lang.Integer">
         UPDATE "order"
         SET
             was_spent='true'

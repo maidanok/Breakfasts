@@ -19,10 +19,8 @@ repositories {
 
 dependencies {
 
-
     compile project(':breakfast-data-layer')
-
-
+    compile project(':breakfast-service')
     compile group: 'org.springframework.security', name: 'spring-security-config', version: '4.2.1.RELEASE'
     compile group: 'org.springframework.security', name: 'spring-security-web', version: '4.2.1.RELEASE'
     compile group: 'org.springframework.security', name: 'spring-security-taglibs', version: '4.2.1.RELEASE'
@@ -39,5 +37,10 @@ dependencies {
 
     compile group: 'postgresql', name: 'postgresql', version: '9.1-901-1.jdbc4'
     compile group: 'org.postgresql', name: 'postgresql', version: '9.4.1212'
+
+
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.8.6'
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.8.6'
+
 }
 
