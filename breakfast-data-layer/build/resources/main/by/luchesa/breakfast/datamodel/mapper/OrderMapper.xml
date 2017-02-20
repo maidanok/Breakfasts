@@ -15,6 +15,7 @@
                      fetchType="eager"/>
     </resultMap>
 
+
     <select id="getOrderByDate" parameterType="java.util.Date" resultMap="order">
         SELECT
             *
@@ -32,8 +33,17 @@
         WHERE
             id_order=#{idOrder};
     </select>
-    
-    
+
+    <select id="getOrderByDateAndNotWasSpend" parameterType="?" resultMap="order">
+        SELECT
+            *
+        FROM
+            order
+        WHERE
+            date_order=#{dateOrder} AND was_spend='false';
+
+    </select>
+
     <insert id="insertOrder">
         INSERT 
             into "order" (id_breakfast, room, date_order, was_spent)
@@ -41,12 +51,17 @@
             (#{order.breakfast.idBreakfast}, #{order.room.room}, #{dateOrder}, 'false');
     </insert>
     
-    <update id="completeTheOrder">
+    <update id="completeOrder" parameterType="java.lang.Integer">
         UPDATE "order"
         SET
             was_spent='true'
         WHERE
             id_order=#{idOrder};
     </update>
+
+    <delete id="deleteOrder" parameterType="java.lang.Integer">
+        DELETE FROM "order"
+        WHERE id_order=#{idOrder};
+    </delete>
 
 </mapper>

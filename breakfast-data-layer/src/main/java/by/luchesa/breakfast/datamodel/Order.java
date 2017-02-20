@@ -1,6 +1,8 @@
 package by.luchesa.breakfast.datamodel;
 
+import java.util.Comparator;
 import java.util.Date;
+import java.util.Objects;
 
 /**
  * Created by Admin on 10.02.2017.
@@ -51,4 +53,8 @@ public class Order {
     public void setWasSpent(Boolean wasSpent) {
         this.wasSpent = wasSpent;
     }
+
+
+
+
 }

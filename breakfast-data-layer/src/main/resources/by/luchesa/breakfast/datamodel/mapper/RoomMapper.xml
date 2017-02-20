@@ -31,4 +31,12 @@
         GROUP BY floor
         ORDER BY floor;
     </select>
+
+    <select id="getAllRooms" resultMap="room">
+        SELECT
+            *
+        FROM
+            rooms
+        ORDER BY room;
+    </select>
 </mapper>

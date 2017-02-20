@@ -7,9 +7,9 @@
        http://www.springframework.org/schema/context/spring-context-4.3.xsd">
 
 
-    <import resource="classpath:/by/luchesa/breakfast/datamodel/spring-database-connector.xml"/>
+    <import resource="spring-database-connector.xml"/>
 
-      <context:component-scan base-package="by.luchesa.breakfast.*" />
+      <context:component-scan base-package="by.luchesa.breakfast.dao*" />
       <context:annotation-config/>
 
     <bean id="userMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">

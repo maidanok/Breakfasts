@@ -16,6 +16,8 @@ dependencies {
     compile group: 'org.springframework', name: 'spring-jdbc', version: '4.3.5.RELEASE'
     compile group: 'org.springframework', name: 'spring-context', version: '4.3.5.RELEASE'
     compile group: 'org.springframework', name: 'spring-beans', version: '4.3.5.RELEASE'
+
+    
     compile group: 'org.springframework.security', name: 'spring-security-config', version: '4.2.1.RELEASE'
     compile group: 'org.springframework.security', name: 'spring-security-web', version: '4.2.1.RELEASE'
     compile group: 'org.springframework.security', name: 'spring-security-taglibs', version: '4.2.1.RELEASE'

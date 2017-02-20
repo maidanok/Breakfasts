@@ -12,4 +12,5 @@ public interface RoomMapper {
 //метод вернет список комнат на этаже
     List<Room> getRoomsOnTheFloor(int floor);
     List<Integer> getAllFlor();
+    List<Room> getAllRooms();
 }
