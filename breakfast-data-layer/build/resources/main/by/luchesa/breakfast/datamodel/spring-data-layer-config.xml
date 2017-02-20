@@ -22,5 +22,20 @@
         <property name="sqlSessionFactory" ref="sessionFactory"/>
     </bean>
 
+    <bean id="userRolesMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+        <property name="mapperInterface" value="by.luchesa.breakfast.dao.UserRolesMapper"/>
+        <property name="sqlSessionFactory" ref="sessionFactory"/>
+    </bean>
+
+    <bean id="breakfastMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+        <property name="mapperInterface" value="by.luchesa.breakfast.dao.BreakfastMapper"/>
+        <property name="sqlSessionFactory" ref="sessionFactory"/>
+    </bean>
+
+    <bean id="orderMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+        <property name="mapperInterface" value="by.luchesa.breakfast.dao.OrderMapper"/>
+        <property name="sqlSessionFactory" ref="sessionFactory"/>
+    </bean>
+
 </beans>
 

@@ -17,7 +17,7 @@ public interface OrderMapper {
 
     void insertOrder(Order order);
 
-    void completeTheOrder();
+    void completeTheOrder(int idOrder);
 
 
 }

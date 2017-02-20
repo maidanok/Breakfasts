@@ -2,7 +2,7 @@ package by.luchesa.breakfast.web.controller;
 
 
 import by.luchesa.breakfast.datamodel.Room;
-import by.luchesa.breakfast.service.RestaurantService;
+import by.luchesa.breakfast.service.api.RestaurantService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
+@RequestMapping("restaurant/rest/")
 public class RestaurantRestController {
 
     @Autowired
@@ -22,7 +23,7 @@ public class RestaurantRestController {
 
     //-------------------Retrieve All Floor--------------------------------------------------------
 
-    @RequestMapping(value = "restaurant/floor/", method = RequestMethod.GET)
+    @RequestMapping(value = "floor/", method = RequestMethod.GET)
     public ResponseEntity<List<Integer>> listAllFloor() {
         List<Integer> floor = restaurantService.getAllFlor();
         if(floor.isEmpty()){
@@ -30,9 +31,9 @@ public class RestaurantRestController {
         }
         return new ResponseEntity<List<Integer>>(floor, HttpStatus.OK);
     }
-    //-------------------Retrieve Single Floor--------------------------------------------------------
 
-    @RequestMapping(value = "restaurant/floor/{id}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
+    //-------------------Retrieve Single Floor--------------------------------------------------------
+    @RequestMapping(value = "floor/{id}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<List<Room>> getRoomOnFloor(@PathVariable("id") int id) {
         System.out.println("Fetching User with id " + id);
         List<Room> roomOnFloor = restaurantService.getRoomsOnTheFloor(id);

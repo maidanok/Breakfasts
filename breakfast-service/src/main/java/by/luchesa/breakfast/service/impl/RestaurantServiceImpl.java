@@ -1,6 +1,7 @@
-package by.luchesa.breakfast.service;
+package by.luchesa.breakfast.service.impl;
 import by.luchesa.breakfast.dao.RoomMapper;
 import by.luchesa.breakfast.datamodel.Room;
+import by.luchesa.breakfast.service.api.RestaurantService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

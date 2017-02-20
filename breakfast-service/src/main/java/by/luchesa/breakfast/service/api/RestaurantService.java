@@ -1,4 +1,4 @@
-package by.luchesa.breakfast.service;
+package by.luchesa.breakfast.service.api;
 
 
 import by.luchesa.breakfast.datamodel.Room;
