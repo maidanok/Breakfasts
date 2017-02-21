@@ -3,7 +3,8 @@ package by.luchesa.breakfast.service.api;
 import by.luchesa.breakfast.datamodel.Order;
 import by.luchesa.breakfast.datamodel.Room;
 
-import java.util.Date;
+
+import java.time.LocalDate;
 import java.util.List;
 
 /**
@@ -12,7 +13,7 @@ import java.util.List;
 public interface ReceptionService {
     List <Room> getAllRooms();
 
-    List<Order> getOrderByDate(Date date);
+    List<Order> getOrderByDate(LocalDate date);
 
     void insertOrder(Order order);
 

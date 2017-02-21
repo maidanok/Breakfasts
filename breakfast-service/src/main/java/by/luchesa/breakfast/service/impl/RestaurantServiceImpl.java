@@ -8,7 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.util.Date;
+
+import java.time.LocalDate;
 import java.util.List;
 
 @Service("RestaurantService")
@@ -35,7 +36,7 @@ public class RestaurantServiceImpl implements RestaurantService {
     }
 
     @Override
-    public List<Order> getOrderByDateAndNotWasSpend(Date date) {
+    public List<Order> getOrderByDateAndNotWasSpend(LocalDate date) {
         return orderMapper.getOrderByDateAndNotWasSpend(date);
     }
 

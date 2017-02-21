@@ -36,4 +36,5 @@
 
    <!-- <import resource="classpath:/by/luchesa/breakfast/datamodel/spring-database-connector.xml"/>-->
    <!-- <import resource="classpath:by/luchesa/breakfast/web/controller/spring-security.xml" />-->
+
 </beans>

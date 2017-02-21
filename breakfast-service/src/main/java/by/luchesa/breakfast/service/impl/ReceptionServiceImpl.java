@@ -1,15 +1,17 @@
 package by.luchesa.breakfast.service.impl;
 
+import by.luchesa.breakfast.dao.BreakfastMapper;
 import by.luchesa.breakfast.dao.OrderMapper;
 import by.luchesa.breakfast.dao.RoomMapper;
 import by.luchesa.breakfast.datamodel.Order;
 import by.luchesa.breakfast.datamodel.Room;
 import by.luchesa.breakfast.service.api.ReceptionService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.util.Date;
+import java.time.LocalDate;
 import java.util.List;
 
 /**
@@ -30,13 +32,14 @@ public class ReceptionServiceImpl implements ReceptionService{
     }
 
     @Override
-    public List<Order> getOrderByDate(Date date) {
+    public List<Order> getOrderByDate(LocalDate date) {
         return orderMapper.getOrderByDate(date);
     }
 
     @Override
     public void insertOrder(Order order) {
-        orderMapper.insertOrder(order);
+        TestGenerationOrder testGenerationOrder = new TestGenerationOrder();
+        orderMapper.insertOrder(testGenerationOrder.GenerateOrder());
 
     }
 
@@ -51,3 +54,21 @@ public class ReceptionServiceImpl implements ReceptionService{
         return orderMapper.getOrderById(idOrder);
     }
 }
+
+class TestGenerationOrder{
+    @Autowired
+    RoomMapper roomMapper;
+    @Autowired
+    BreakfastMapper breakfastMapper;
+    @Autowired
+    OrderMapper orderMapper;
+
+    Order GenerateOrder(){
+      Order newOrder=orderMapper.getOrderById(2);
+        newOrder.setRoom(roomMapper.getRoom(400));
+        newOrder.setDateOrder(LocalDate.now());
+        newOrder.setBreakfast(breakfastMapper.getBreakfastId(2));
+        return newOrder;
+    }
+
+        }

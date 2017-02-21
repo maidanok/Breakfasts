@@ -3,7 +3,9 @@ package by.luchesa.breakfast.web.controller;
 import by.luchesa.breakfast.datamodel.Order;
 import by.luchesa.breakfast.datamodel.Room;
 import by.luchesa.breakfast.service.api.ReceptionService;
+import net.sf.cglib.core.Local;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -11,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.time.LocalDate;
 import java.util.Date;
 import java.util.List;
 
@@ -36,7 +39,8 @@ public class ReceptionRestController {
     }
 
     @RequestMapping(value = "/order/{date}", method = RequestMethod.GET)
-    public ResponseEntity<List<Order>> getOrderByDate(@PathVariable ("date")Date date){
+    public ResponseEntity<List<Order>> getOrderByDate(
+            @PathVariable("date") @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate date){
         List <Order> orderByDate=receptionService.getOrderByDate(date);
         if (orderByDate.isEmpty()){
             return new ResponseEntity<List<Order>>(HttpStatus.NO_CONTENT);

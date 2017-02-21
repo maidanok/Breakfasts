@@ -5,16 +5,18 @@ import by.luchesa.breakfast.datamodel.Order;
 import by.luchesa.breakfast.datamodel.Room;
 import by.luchesa.breakfast.service.api.RestaurantService;
 import org.springframework.beans.factory.annotation.Autowired;
+
+import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletRequest;
+import java.time.LocalDate;
 import java.util.Date;
 import java.util.List;
+
 
 @RestController
 @RequestMapping("restaurant/rest/")
@@ -46,8 +48,9 @@ public class RestaurantRestController {
         return new ResponseEntity<List<Room>>(roomOnFloor, HttpStatus.OK);
     }
 
-    @RequestMapping(value = "orders/{date}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<List<Order>> getOrderByDateAndNotWasSpend(@PathVariable("date")Date date){
+    @RequestMapping(value = "order/{date}", method = RequestMethod.GET )
+    public ResponseEntity<List<Order>> getOrderByDateAndNotWasSpend
+            (@PathVariable("date") @DateTimeFormat (iso = DateTimeFormat.ISO.DATE) LocalDate date){
         List<Order> ordersNotSpend=restaurantService.getOrderByDateAndNotWasSpend(date);
         if (ordersNotSpend==null){
             System.out.println("Orders not Found");
