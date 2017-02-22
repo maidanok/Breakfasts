@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d73d5c46-462b-40bb-9355-d8ebc7b16a5b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/breakfast-ui/build/serverBaseDir_tomcat8/work/Tomcat/localhost/breakfast-ui/SESSIONS.ser" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/dao/UserRolesMapper.java" afterPath="$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/dao/UserRolesMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-data-layer/src/main/resources/by/luchesa/breakfast/datamodel/mapper/UserRolesMapper.xml" afterPath="$PROJECT_DIR$/breakfast-data-layer/src/main/resources/by/luchesa/breakfast/datamodel/mapper/UserRolesMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-service/src/main/java/by/luchesa/breakfast/service/api/AdminService.java" afterPath="$PROJECT_DIR$/breakfast-service/src/main/java/by/luchesa/breakfast/service/api/AdminService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-service/src/main/java/by/luchesa/breakfast/service/impl/AdminServiceImpl.java" afterPath="$PROJECT_DIR$/breakfast-service/src/main/java/by/luchesa/breakfast/service/impl/AdminServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-ui/src/main/java/by/luchesa/breakfast/web/controller/AdminRestController.java" afterPath="$PROJECT_DIR$/breakfast-ui/src/main/java/by/luchesa/breakfast/web/controller/AdminRestController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-service/src/main/java/by/luchesa/breakfast/service/impl/RestaurantServiceImpl.java" afterPath="$PROJECT_DIR$/breakfast-service/src/main/java/by/luchesa/breakfast/service/impl/RestaurantServiceImpl.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -70,24 +65,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminService.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AdminService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/breakfast-service/src/main/java/by/luchesa/breakfast/service/api/AdminService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="306">
+              <caret line="18" column="49" lean-forward="true" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserRolesMapper.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/breakfast-data-layer/src/main/resources/by/luchesa/breakfast/datamodel/mapper/UserRolesMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -1538,7 +1523,6 @@
         <option value="$PROJECT_DIR$/breakfast-service/src/main/resources/by/luchesa/breakfast/service/spring-service-config.xml" />
         <option value="$PROJECT_DIR$/breakfast-ui/src/main/webapp/WEB-INF/spring-security.xml" />
         <option value="$PROJECT_DIR$/breakfast-service/src/main/java/by/luchesa/breakfast/service/api/RestaurantService.java" />
-        <option value="$PROJECT_DIR$/breakfast-service/src/main/java/by/luchesa/breakfast/service/impl/RestaurantServiceImpl.java" />
         <option value="$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/dao/OrderMapper.java" />
         <option value="$PROJECT_DIR$/breakfast-data-layer/src/main/resources/by/luchesa/breakfast/datamodel/spring-data-layer-config.xml" />
         <option value="$PROJECT_DIR$/breakfast-ui/build.gradle" />
@@ -1557,10 +1541,11 @@
         <option value="$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/dao/UserMapper.java" />
         <option value="$PROJECT_DIR$/breakfast-data-layer/src/main/resources/by/luchesa/breakfast/datamodel/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/dao/UserRolesMapper.java" />
-        <option value="$PROJECT_DIR$/breakfast-service/src/main/java/by/luchesa/breakfast/service/api/AdminService.java" />
         <option value="$PROJECT_DIR$/breakfast-service/src/main/java/by/luchesa/breakfast/service/impl/AdminServiceImpl.java" />
         <option value="$PROJECT_DIR$/breakfast-ui/src/main/java/by/luchesa/breakfast/web/controller/AdminRestController.java" />
         <option value="$PROJECT_DIR$/breakfast-data-layer/src/main/resources/by/luchesa/breakfast/datamodel/mapper/UserRolesMapper.xml" />
+        <option value="$PROJECT_DIR$/breakfast-service/src/main/java/by/luchesa/breakfast/service/impl/RestaurantServiceImpl.java" />
+        <option value="$PROJECT_DIR$/breakfast-service/src/main/java/by/luchesa/breakfast/service/api/AdminService.java" />
       </list>
     </option>
   </component>
@@ -2452,14 +2437,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/breakfast-service/src/main/java/by/luchesa/breakfast/service/impl/RestaurantServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/breakfast-data-layer/src/main/resources/by/luchesa/breakfast/datamodel/spring-database-connector.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -2651,16 +2628,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/breakfast-service/src/main/java/by/luchesa/breakfast/service/api/AdminService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/dao/UserRolesMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -2721,11 +2688,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/breakfast-service/src/main/java/by/luchesa/breakfast/service/impl/RestaurantServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="46" column="4" lean-forward="false" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getOrderByDateAndNotWasSpend#0;class#RestaurantServiceImpl#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/breakfast-data-layer/src/main/resources/by/luchesa/breakfast/datamodel/mapper/UserRolesMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="29" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        <state relative-caret-position="255">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/breakfast-service/src/main/java/by/luchesa/breakfast/service/api/AdminService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="49" lean-forward="true" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

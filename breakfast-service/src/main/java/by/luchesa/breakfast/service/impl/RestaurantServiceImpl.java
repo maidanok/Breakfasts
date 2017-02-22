@@ -44,6 +44,7 @@ public class RestaurantServiceImpl implements RestaurantService {
     public void completeOrder(int idOrder) {
         orderMapper.completeOrder(idOrder);
     }
+
     public Order getOrderById(int idOrder){
      return orderMapper.getOrderById(idOrder);
     }
