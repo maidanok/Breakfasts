@@ -20,4 +20,6 @@ public interface ReceptionService {
     void deleteOrder(Order order);
 
     Order getOrderById(int idOrder);
+
+    Order generateOrder();
 }

@@ -49,7 +49,10 @@ public class ReceptionRestController {
     }
 
     @RequestMapping (value = "order/", method = RequestMethod.PUT)
-    public ResponseEntity<List<Order>> insertOrder(Order newOrder){
+    public ResponseEntity<List<Order>> insertOrder(){
+        //тестовая вставка для генерации случайного заказа потом надо будет удалить
+                Order newOrder=receptionService.generateOrder();
+
         receptionService.insertOrder(newOrder);
         Order myOrder=receptionService.getOrderById(newOrder.getIdOrder());
         if (myOrder==null){

@@ -26,6 +26,9 @@ public class ReceptionServiceImpl implements ReceptionService{
     @Autowired
     OrderMapper orderMapper;
 
+    @Autowired
+    BreakfastMapper breakfastMapper;
+
     @Override
     public List<Room> getAllRooms() {
         return roomMapper.getAllRooms();
@@ -38,8 +41,8 @@ public class ReceptionServiceImpl implements ReceptionService{
 
     @Override
     public void insertOrder(Order order) {
-        TestGenerationOrder testGenerationOrder = new TestGenerationOrder();
-        orderMapper.insertOrder(testGenerationOrder.GenerateOrder());
+
+        orderMapper.insertOrder(order);
 
     }
 
@@ -53,22 +56,14 @@ public class ReceptionServiceImpl implements ReceptionService{
     public Order getOrderById(int idOrder) {
         return orderMapper.getOrderById(idOrder);
     }
-}
 
-class TestGenerationOrder{
-    @Autowired
-    RoomMapper roomMapper;
-    @Autowired
-    BreakfastMapper breakfastMapper;
-    @Autowired
-    OrderMapper orderMapper;
 
-    Order GenerateOrder(){
+   public Order generateOrder(){
       Order newOrder=orderMapper.getOrderById(2);
         newOrder.setRoom(roomMapper.getRoom(400));
         newOrder.setDateOrder(LocalDate.now());
-        newOrder.setBreakfast(breakfastMapper.getBreakfastId(2));
+        newOrder.setBreakfast(breakfastMapper.getBreakfastId(1));
+        System.out.println("brekf"+newOrder.getBreakfast().getNameBreakfast());
         return newOrder;
     }
-
-        }
+}

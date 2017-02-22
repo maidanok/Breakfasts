@@ -13,11 +13,11 @@ public interface BreakfastMapper {
 
     List<Breakfast> getAllBreakfast();
 
-    void setNewPrice(Breakfast breakfast);
+    void insertNewBreakfast(Breakfast breakfast);
 
-    void addNewBreakfast (Breakfast breakfast);
+    void updateBreakfast (Breakfast breakfast);
 
-    void deleteBreakfast(Breakfast breakfast);
+    void deleteBreakfast(int idBreakfast);
 
 
 }

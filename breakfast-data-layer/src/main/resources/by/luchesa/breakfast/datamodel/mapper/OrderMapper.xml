@@ -50,7 +50,7 @@
         INSERT 
             into public."order" (id_breakfast, room, date_order, was_spent)
         VALUES
-            (#{order.breakfast.idBreakfast}, #{order.room.room}, #{dateOrder}, 'false');
+            (#{breakfast.idBreakfast}, #{room.room}, #{dateOrder}, 'false');
     </insert>
     
     <update id="completeOrder" parameterType="java.lang.Integer">

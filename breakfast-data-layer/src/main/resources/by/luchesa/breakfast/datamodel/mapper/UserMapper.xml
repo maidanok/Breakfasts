@@ -28,5 +28,39 @@
         WHERE user_id=#{userId};
     </select>
 
+    <select id="getAllUser" resultMap="user">
+        SELECT
+            *
+        FROM
+            users
+        ORDER BY
+            user_id;
+    </select>
+
+    <insert id="insertNewUser">
+        INSERT INTO users
+            (username, password, enabled, user_role_id)
+        VALUES
+            (#{userName}, #{password}, 'true', #{userRoles.userRoleId});
+
+    </insert>
+
+    <update id="updatePasswordUser">
+        UPDATE users
+        SET
+            password=#{password}
+        WHERE
+            user_id=#{userId};
+    </update>
+
+    <update id="deleteUser" parameterType="java.lang.Integer">
+        UPDATE users
+        SET
+            enabled='false'
+        WHERE
+            user_id=#{userId};
+    </update>
+
+
 
 </mapper>

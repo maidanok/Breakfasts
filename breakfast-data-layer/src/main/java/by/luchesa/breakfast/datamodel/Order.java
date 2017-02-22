@@ -14,7 +14,6 @@ public class Order {
     private Room room;
     private Boolean wasSpent;
 
-
     public int getIdOrder() {
         return idOrder;
     }
