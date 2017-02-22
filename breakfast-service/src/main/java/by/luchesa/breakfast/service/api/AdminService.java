@@ -2,6 +2,7 @@ package by.luchesa.breakfast.service.api;
 
 import by.luchesa.breakfast.datamodel.Breakfast;
 import by.luchesa.breakfast.datamodel.User;
+import by.luchesa.breakfast.datamodel.UserRoles;
 
 import java.util.List;
 
@@ -20,6 +21,8 @@ public interface AdminService {
     void updateBreakfast(Breakfast breakfast);
 
     void deleteBreakfast(int idBreakfast);
+
+    List <UserRoles> getAllUserRoles();
 
     List<User> getAllUser();
 

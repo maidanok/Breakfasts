@@ -2,8 +2,10 @@ package by.luchesa.breakfast.service.impl;
 
 import by.luchesa.breakfast.dao.BreakfastMapper;
 import by.luchesa.breakfast.dao.UserMapper;
+import by.luchesa.breakfast.dao.UserRolesMapper;
 import by.luchesa.breakfast.datamodel.Breakfast;
 import by.luchesa.breakfast.datamodel.User;
+import by.luchesa.breakfast.datamodel.UserRoles;
 import by.luchesa.breakfast.service.api.AdminService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -22,6 +24,9 @@ public class AdminServiceImpl implements AdminService{
 
     @Autowired
     BreakfastMapper breakfastMapper;
+
+    @Autowired
+    UserRolesMapper userRolesMapper;
 
     @Override
     public List<Breakfast> getAllBreakfast() {
@@ -46,6 +51,11 @@ public class AdminServiceImpl implements AdminService{
     @Override
     public void deleteBreakfast(int idBreakfast) {
         breakfastMapper.deleteBreakfast(idBreakfast);
+    }
+
+    @Override
+    public List<UserRoles> getAllUserRoles() {
+        return userRolesMapper.getAllUserRole();
     }
 
     @Override

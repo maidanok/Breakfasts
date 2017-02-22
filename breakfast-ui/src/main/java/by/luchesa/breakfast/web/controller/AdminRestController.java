@@ -2,6 +2,7 @@ package by.luchesa.breakfast.web.controller;
 
 import by.luchesa.breakfast.datamodel.Breakfast;
 import by.luchesa.breakfast.datamodel.User;
+import by.luchesa.breakfast.datamodel.UserRoles;
 import by.luchesa.breakfast.service.api.AdminService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -67,7 +68,7 @@ public class AdminRestController {
         return new ResponseEntity<List<Breakfast>>(adminService.getAllBreakfast(),HttpStatus.NOT_IMPLEMENTED);
     }
 
-    @RequestMapping (value = "admin/", method = RequestMethod.GET)
+    @RequestMapping (value = "user/", method = RequestMethod.GET)
     public ResponseEntity <List<User>> getAllUser(){
         List<User>allUser=adminService.getAllUser();
         if (allUser.isEmpty()){
@@ -76,7 +77,7 @@ public class AdminRestController {
         return new ResponseEntity<List<User>>(allUser,HttpStatus.OK);
     }
 
-    @RequestMapping (value = "admin/", method = RequestMethod.PUT)
+    @RequestMapping (value = "user/", method = RequestMethod.PUT)
     public ResponseEntity <List<User>> insertNewUser(User newUser){
         adminService.insertNewUser(newUser);
         User checkUser = adminService.getUserId(newUser.getUserId());
@@ -86,7 +87,7 @@ public class AdminRestController {
         return new ResponseEntity<List<User>>(adminService.getAllUser(),HttpStatus.OK);
     }
 
-    @RequestMapping (value = "admin/{id}", method = RequestMethod.POST)
+    @RequestMapping (value = "user/{id}", method = RequestMethod.POST)
     public ResponseEntity <User> updatePasswordUser (@PathVariable("id") int id){
         // поставим пока заглушку пароль будет менятся на 5555555
         String password = "55555";
@@ -99,12 +100,21 @@ public class AdminRestController {
         return new ResponseEntity<User>(adminService.getUserId(id),HttpStatus.OK);
     }
 
-    @RequestMapping (value = "admin/{id}", method = RequestMethod.DELETE)
+    @RequestMapping (value = "user/{id}", method = RequestMethod.DELETE)
     public ResponseEntity<List<User>> deleteUser (@PathVariable("id") int id){
         adminService.deleteUser(id);
         if(adminService.getUserId(id).getEnabled()==false){
             return new ResponseEntity<List<User>>(adminService.getAllUser(),HttpStatus.OK);
         }
         return new ResponseEntity<List<User>>(adminService.getAllUser(),HttpStatus.NOT_IMPLEMENTED);
+    }
+
+    @RequestMapping(value = "userroles/", method = RequestMethod.GET)
+    public ResponseEntity<List<UserRoles>> getAllUserRoles(){
+        List<UserRoles> allUserRoles=adminService.getAllUserRoles();
+        if(allUserRoles.isEmpty()){
+            return new ResponseEntity<List<UserRoles>>(HttpStatus.NO_CONTENT);
+        }
+        return new ResponseEntity<List<UserRoles>>(allUserRoles,HttpStatus.OK);
     }
 }
