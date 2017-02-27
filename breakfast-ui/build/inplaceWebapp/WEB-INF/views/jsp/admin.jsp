@@ -2,8 +2,10 @@
 <%@page session="true"%>
 <html>
 <head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="<c:url value="/resources/css/BreakfastCss.css" />">
+    <link rel="stylesheet" href="<c:url value="/resources/jquery-ui-1.12.1.custom/jquery-ui.theme.css" />">
+    <script type="text/javascript" src="<c:url value="/resources/jquery-ui-1.12.1.custom/jquery-ui.min.js"/>"></script>
 </head>
 <body>
 	<h1>Title : ${title}</h1>

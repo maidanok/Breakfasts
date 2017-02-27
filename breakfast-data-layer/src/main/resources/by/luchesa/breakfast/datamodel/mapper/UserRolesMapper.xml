@@ -13,4 +13,14 @@
             user_roles
         ORDER BY user_role_id
     </select>
+
+    <select id="getUserRoleId" resultMap="userroles" parameterType="java.lang.Integer">
+        SELECT
+        *
+        FROM
+            user_roles
+        WHERE user_role_id=#{userRoleId};
+    </select>
+
+
 </mapper>

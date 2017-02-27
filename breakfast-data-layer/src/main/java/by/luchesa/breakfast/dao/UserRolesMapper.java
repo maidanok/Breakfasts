@@ -9,4 +9,5 @@ import java.util.List;
  */
 public interface UserRolesMapper {
  List<UserRoles> getAllUserRole();
+ UserRoles getUserRoleId(int userRoleId);
 }

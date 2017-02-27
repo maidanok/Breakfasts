@@ -12,7 +12,7 @@
         />
     </resultMap>
    <!-- <sql id="userColumns">username, enabled, password</sql>-->
-    <select id="getUserName" parameterType="string" resultType="User" resultMap="user">
+    <select id="getUserName" parameterType="string" resultMap="user">
         SELECT
             *
         FROM
@@ -20,7 +20,7 @@
         WHERE username = #{userName};
     </select>
 
-    <select id="getUserId" parameterType="java.lang.Integer" resultType="User" resultMap="user">
+    <select id="getUserId" parameterType="java.lang.Integer" resultMap="user">
         SELECT
             *
         FROM
