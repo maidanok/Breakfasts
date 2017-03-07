@@ -2,10 +2,11 @@
 <%@page session="true"%>
 <html>
 <head>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
     <meta charset="utf-8">
     <link rel="stylesheet" href="<c:url value="/resources/jquery-ui-1.12.1.custom/jquery-ui.theme.css" />">
+    <script type="text/javascript" src="<c:url value="/resources/jquery-ui-1.12.1.custom/external/jquery/jquery.js"/>"></script>
     <script type="text/javascript" src="<c:url value="/resources/jquery-ui-1.12.1.custom/jquery-ui.min.js"/>"></script>
+
 </head>
 <body>
 	<h1>Title : ${title}</h1>
@@ -16,6 +17,7 @@
 		<input type="hidden" name="${_csrf.parameterName}"
 			value="${_csrf.token}" />
 	</form>
+
 	<script>
 		function formSubmit() {
 			document.getElementById("logoutForm").submit();
@@ -25,7 +27,8 @@
 	<c:if test="${pageContext.request.userPrincipal.name != null}">
 		<h2>
 			Welcome : ${pageContext.request.userPrincipal.name} | <a
-				href="javascript:formSubmit()"> Logout</a>
+				href="javascript:
+		formSubmit()"> Logout</a>
 		</h2>
 	</c:if>
 
