@@ -1,5 +1,6 @@
 package by.luchesa.breakfast.web.controller;
 
+import by.luchesa.breakfast.datamodel.Breakfast;
 import by.luchesa.breakfast.datamodel.Order;
 import by.luchesa.breakfast.datamodel.Room;
 import by.luchesa.breakfast.service.api.ReceptionService;
@@ -27,7 +28,25 @@ public class ReceptionRestController {
 
     @Autowired
     ReceptionService receptionService;
+    @RequestMapping(value = "floor/", method = RequestMethod.GET)
+    public ResponseEntity<List<Integer>> listAllFloor() {
+        List<Integer> floor = receptionService.getAllFlor();
+        if(floor.isEmpty()){
+            return new ResponseEntity<List<Integer>>(HttpStatus.NO_CONTENT);//You many decide to return HttpStatus.NOT_FOUND
+        }
+        return new ResponseEntity<List<Integer>>(floor, HttpStatus.OK);
+    }
 
+
+    @RequestMapping(value = "breakfast/", method = RequestMethod.GET)
+    public ResponseEntity<List<Breakfast>> getAllBreakfast(){
+        List <Breakfast> allBreakfast= receptionService.getAllBreakfast();
+        if (allBreakfast.isEmpty()){
+            System.out.println("breakfasts not found");
+            return new ResponseEntity<List<Breakfast>>(HttpStatus.NO_CONTENT);
+        }
+        return new ResponseEntity<List<Breakfast>>(allBreakfast, HttpStatus.OK);
+    }
     @RequestMapping(value = "room/", method = RequestMethod.GET)
     public ResponseEntity<List<Room>> getAllRooms(){
         List <Room> allRooms= receptionService.getAllRooms();

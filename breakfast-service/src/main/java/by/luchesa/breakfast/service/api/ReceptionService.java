@@ -1,5 +1,6 @@
 package by.luchesa.breakfast.service.api;
 
+import by.luchesa.breakfast.datamodel.Breakfast;
 import by.luchesa.breakfast.datamodel.Order;
 import by.luchesa.breakfast.datamodel.Room;
 
@@ -15,6 +16,8 @@ public interface ReceptionService {
 
     List<Order> getOrderByDate(LocalDate date);
 
+    List<Breakfast> getAllBreakfast();
+
     void insertOrder(Order order);
 
     void deleteOrder(Order order);
@@ -22,4 +25,6 @@ public interface ReceptionService {
     Order getOrderById(int idOrder);
 
     Order generateOrder();
+
+    List<Integer> getAllFlor();
 }

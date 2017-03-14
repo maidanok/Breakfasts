@@ -3,6 +3,7 @@ package by.luchesa.breakfast.service.impl;
 import by.luchesa.breakfast.dao.BreakfastMapper;
 import by.luchesa.breakfast.dao.OrderMapper;
 import by.luchesa.breakfast.dao.RoomMapper;
+import by.luchesa.breakfast.datamodel.Breakfast;
 import by.luchesa.breakfast.datamodel.Order;
 import by.luchesa.breakfast.datamodel.Room;
 import by.luchesa.breakfast.service.api.ReceptionService;
@@ -20,6 +21,7 @@ import java.util.List;
 @Service("ReceptionService")
 @Transactional
 public class ReceptionServiceImpl implements ReceptionService{
+    private List<Integer> floor;
     @Autowired
     RoomMapper roomMapper;
 
@@ -37,6 +39,11 @@ public class ReceptionServiceImpl implements ReceptionService{
     @Override
     public List<Order> getOrderByDate(LocalDate date) {
         return orderMapper.getOrderByDate(date);
+    }
+
+    @Override
+    public List<Breakfast> getAllBreakfast() {
+        return breakfastMapper.getAllBreakfast();
     }
 
     @Override
@@ -65,5 +72,11 @@ public class ReceptionServiceImpl implements ReceptionService{
         newOrder.setBreakfast(breakfastMapper.getBreakfastId(1));
         System.out.println("brekf"+newOrder.getBreakfast().getNameBreakfast());
         return newOrder;
+    }
+
+    @Override
+    public List<Integer> getAllFlor() {
+        floor=roomMapper.getAllFlor();
+        return floor;
     }
 }
