@@ -4,10 +4,10 @@
 <html>
 	<head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="<c:url value="/resources/jquery-ui-1.12.1.custom/jquery-ui.theme.css" />">
-	<script type="text/javascript" src="<c:url value="/resources/jquery-ui-1.12.1.custom/external/jquery/jquery.js"/>"></script>
-	<script type="text/javascript" src="<c:url value="/resources/jquery-ui-1.12.1.custom/jquery-ui.js"/>"></script>
+	<link rel="stylesheet" href="<c:url value="/resources/jqwidgets-ver4.5.0/jqwidgets/styles/jqx.orange.css" />">
+	<script type="text/javascript" src="<c:url value="/resources/jqwidgets-ver4.5.0/scripts/jquery-1.11.2.js"/>"></script>
 	<script type="text/javascript" src="<c:url value="/resources/js/reception.js"/>"></script>
+
 	<style>
 	body{
 	font-family: "Trebuchet MS", sans-serif;
