@@ -43,7 +43,7 @@ public class ReceptionServiceImpl implements ReceptionService{
 
     @Override
     public List<Breakfast> getAllBreakfast() {
-        return breakfastMapper.getAllBreakfast();
+        return breakfastMapper.getAll();
     }
 
     @Override
@@ -69,7 +69,7 @@ public class ReceptionServiceImpl implements ReceptionService{
       Order newOrder=orderMapper.getOrderById(2);
         newOrder.setRoom(roomMapper.getRoom(400));
         newOrder.setDateOrder(LocalDate.now());
-        newOrder.setBreakfast(breakfastMapper.getBreakfastId(1));
+        newOrder.setBreakfast(breakfastMapper.getByPrimaryKey(1));
         System.out.println("brekf"+newOrder.getBreakfast().getNameBreakfast());
         return newOrder;
     }

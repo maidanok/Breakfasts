@@ -17,8 +17,6 @@ public interface OrderMapper {
 
     List<Order> getOrderByDateAndNotWasSpend(LocalDate dateOrder);
 
-    //List<Order> getOrderByDateAndRoom(Date dateOrder, int room);
-
     Order getOrderById(int idOrder);
 
     void insertOrder(Order order);

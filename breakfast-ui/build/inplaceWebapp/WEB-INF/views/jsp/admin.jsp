@@ -80,6 +80,7 @@
 <button id="ajax" class="ui-button ui-corner-all ui-widget">ajax call</button>
 
 <script type="text/javascript">
+
     $('#ajax').click(function(){
          $.ajax({
              type: "GET",
@@ -100,7 +101,9 @@
     function say(text){
 $('#console').append('<div>'+text+'</div>')
  };
+
 </script>
+
     <ul id="icons" class="ui-widget ui-helper-clearfix">
     <li class="ui-state-default ui-corner-all" title=".ui-icon-circle-plus"><span class="ui-icon ui-icon-circle-plus"></span></li>
 <div id="console"></div>

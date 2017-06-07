@@ -30,27 +30,27 @@ public class AdminServiceImpl implements AdminService{
 
     @Override
     public List<Breakfast> getAllBreakfast() {
-        return breakfastMapper.getAllBreakfast();
+        return breakfastMapper.getAll();
     }
 
     @Override
     public Breakfast getBreakfast(int idBreakfast) {
-        return breakfastMapper.getBreakfastId(idBreakfast);
+        return breakfastMapper.getByPrimaryKey(idBreakfast);
     }
 
     @Override
     public void insertNewBreakfast(Breakfast breakfast) {
-        breakfastMapper.insertNewBreakfast(breakfast);
+        breakfastMapper.create(breakfast);
     }
 
     @Override
     public void updateBreakfast(Breakfast breakfast) {
-        breakfastMapper.updateBreakfast(breakfast);
+        breakfastMapper.update(breakfast);
     }
 
     @Override
     public void deleteBreakfast(int idBreakfast) {
-        breakfastMapper.deleteBreakfast(idBreakfast);
+        breakfastMapper.delete(idBreakfast);
     }
 
     @Override

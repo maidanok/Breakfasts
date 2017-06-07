@@ -3,7 +3,7 @@ package by.luchesa.breakfast.datamodel;
 /**
  * Created by Admin on 10.02.2017.
  */
-public class Breakfast {
+public class Breakfast implements Entity {
     // порядковый номер завтрака
     private int idBreakfast;
     //название завтрака
@@ -11,12 +11,14 @@ public class Breakfast {
     //цена завтрака
     private double price;
 
-    public int getIdBreakfast() {
+    @Override
+    public Integer getPrimaryKey() {
         return idBreakfast;
     }
 
-    public void setIdBreakfast(int idBreakfast) {
-        this.idBreakfast = idBreakfast;
+    @Override
+    public void setPrimaryKey(Integer primaryKey) {
+        idBreakfast = primaryKey;
     }
 
     public String getNameBreakfast() {
@@ -34,4 +36,5 @@ public class Breakfast {
     public void setPrice(double price) {
         this.price = price;
     }
+
 }

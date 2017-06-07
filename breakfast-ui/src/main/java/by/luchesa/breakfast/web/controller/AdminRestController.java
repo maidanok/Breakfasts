@@ -39,7 +39,7 @@ public class AdminRestController {
         adminService.insertNewBreakfast(adminService.generateBreakfast());
 
 
-        Breakfast checkBreakfast = adminService.getBreakfast(newBreakfast.getIdBreakfast());
+        Breakfast checkBreakfast = adminService.getBreakfast(newBreakfast.getPrimaryKey());
         if (checkBreakfast==null){
             return new ResponseEntity<List<Breakfast>>(HttpStatus.NOT_IMPLEMENTED);
         }

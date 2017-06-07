@@ -2,22 +2,22 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
     <mapper namespace="by.luchesa.breakfast.dao.BreakfastMapper">
     <resultMap id="breakfast" type="by.luchesa.breakfast.datamodel.Breakfast">
-        <id property="idBreakfast" column="id_breakfast"/>
+        <id property="primaryKey" column="id_breakfast"/>
         <result column="name_breakfast" property="nameBreakfast"/>
         <result column="price" property="price"/>
     </resultMap>
 
-    <select id="getBreakfastId" parameterType="java.lang.Integer" resultMap="breakfast">
+    <select id="getByPrimaryKey" parameterType="java.lang.Integer" resultMap="breakfast">
         SELECT
             *
         FROM
             breakfast
         WHERE
-            id_breakfast=#{idBreakfast};
+            id_breakfast=#{primaryKey};
     </select>
 
 
-    <select id="getAllBreakfast" resultMap="breakfast">
+    <select id="getAll" resultMap="breakfast">
         SELECT
             *
         FROM
@@ -25,7 +25,7 @@
     </select>
 
 
-    <insert id="insertNewBreakfast">
+    <insert id="create">
         INSERT
             INTO public.breakfast (name_breakfast, price)
         VALUES
@@ -33,14 +33,14 @@
     </insert>
 
 
-    <delete id="deleteBreakfast" parameterType="java.lang.Integer">
+    <delete id="delete" parameterType="java.lang.Integer">
         DELETE
         FROM "breakfast"
         WHERE id_breakfast=#{idBreakfast};
     </delete>
 
 
-    <update id="updateBreakfast">
+    <update id="update">
         UPDATE "breakfast"
         SET
             name_breakfast=#{nameBreakfast},
