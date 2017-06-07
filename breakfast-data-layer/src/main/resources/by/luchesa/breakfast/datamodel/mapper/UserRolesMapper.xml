@@ -6,13 +6,21 @@
         <result column="role" property="role"/>
     </resultMap>
 
-    <select id="getUserRoleId" parameterType="java.lang.Integer" resultMap="userroles"
-            resultType="by.luchesa.breakfast.datamodel.UserRoles">
+    <select id="getAllUserRole" resultMap="userroles">
         SELECT
             *
         FROM
             user_roles
-        WHERE
-            user_role_id=#{userRoleId}
+        ORDER BY user_role_id
     </select>
+
+    <select id="getUserRoleId" resultMap="userroles" parameterType="java.lang.Integer">
+        SELECT
+        *
+        FROM
+            user_roles
+        WHERE user_role_id=#{userRoleId};
+    </select>
+
+
 </mapper>

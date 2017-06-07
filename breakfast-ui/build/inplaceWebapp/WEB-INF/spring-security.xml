@@ -27,7 +27,7 @@
                 password-parameter="password"
         />
         <logout logout-success-url="/login?logout"  />
-        <csrf/>
+        <csrf disabled="true"/>
     </http>
 
     <beans:bean id="myAuthenticationSuccessHandler"
@@ -53,4 +53,6 @@
                                        "SELECT username, role FROM users, user_roles WHERE users.user_role_id=user_roles.user_role_id AND username=?;" />
         </authentication-provider>
     </authentication-manager>
+
+
 </beans:beans>

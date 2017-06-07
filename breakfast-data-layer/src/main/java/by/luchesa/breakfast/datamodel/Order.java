@@ -1,5 +1,7 @@
 package by.luchesa.breakfast.datamodel;
 
+import java.time.Instant;
+import java.time.LocalDate;
 import java.util.Date;
 
 /**
@@ -7,7 +9,7 @@ import java.util.Date;
  */
 public class Order {
     private int idOrder;
-    private Date dateOrder;
+    private LocalDate dateOrder;
     private Breakfast breakfast;
     private Room room;
     private Boolean wasSpent;
@@ -20,12 +22,12 @@ public class Order {
         this.idOrder = idOrder;
     }
 
-    public Date getDateOrder() {
+    public LocalDate getDateOrder() {
         return dateOrder;
     }
 
-    public void setDateOrder(Date dateOrder) {
-        this.dateOrder = dateOrder;
+    public void setDateOrder(LocalDate dateOrder) {
+      this.dateOrder=dateOrder;
     }
 
     public Breakfast getBreakfast() {
@@ -51,4 +53,8 @@ public class Order {
     public void setWasSpent(Boolean wasSpent) {
         this.wasSpent = wasSpent;
     }
+
+
+
+
 }

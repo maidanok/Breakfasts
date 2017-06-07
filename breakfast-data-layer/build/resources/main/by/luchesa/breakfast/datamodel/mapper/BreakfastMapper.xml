@@ -1,54 +1,52 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-        <mapper namespace="by.luchesa.breakfast.dao.BreakfastMapper">
+    <mapper namespace="by.luchesa.breakfast.dao.BreakfastMapper">
     <resultMap id="breakfast" type="by.luchesa.breakfast.datamodel.Breakfast">
-        <id property="idBreakfas" column="id_breakfast"/>
+        <id property="idBreakfast" column="id_breakfast"/>
         <result column="name_breakfast" property="nameBreakfast"/>
         <result column="price" property="price"/>
     </resultMap>
 
-    <select id="getBreakfastId" parameterType="java.lang.Integer" resultType="by.luchesa.breakfast.datamodel.Breakfast">
+    <select id="getBreakfastId" parameterType="java.lang.Integer" resultMap="breakfast">
         SELECT
-            id_breakfast,
-            name_breakfast,
-            price
+            *
         FROM
             breakfast
         WHERE
-            id_breakfas=#{idBreakfast};
+            id_breakfast=#{idBreakfast};
     </select>
 
 
-    <select id="getAllBreakfast">
+    <select id="getAllBreakfast" resultMap="breakfast">
         SELECT
-            id_breakfast,
-            name_breakfast,
-            price
+            *
         FROM
             breakfast;
     </select>
 
 
-    <insert id="addNewBreakfast">
+    <insert id="insertNewBreakfast">
         INSERT
-            INTO "breakfast" (name_breakfast, price)
+            INTO public.breakfast (name_breakfast, price)
         VALUES
-            (#{breakfast.nameBreakfast}, #{breakfast.price});
+            (#{nameBreakfast}, #{price});
     </insert>
 
 
-    <delete id="deleteBreakfast">
-        DELETE FROM "breakfast"
-        WHERE id_breakfast=#{breakfast.idBreakfast};
+    <delete id="deleteBreakfast" parameterType="java.lang.Integer">
+        DELETE
+        FROM "breakfast"
+        WHERE id_breakfast=#{idBreakfast};
     </delete>
 
 
-    <update id="setNewPrice">
+    <update id="updateBreakfast">
         UPDATE "breakfast"
         SET
-            price=#{breakfast.price}
+            name_breakfast=#{nameBreakfast},
+            price=#{price}
         WHERE
-            id_breakfast=#{breakfast.idBreakfast};
+            id_breakfast=#{idBreakfast};
     </update>
 
 
