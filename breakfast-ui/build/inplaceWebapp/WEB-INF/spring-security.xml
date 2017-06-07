@@ -10,11 +10,13 @@
     <!-- Здесь располагаются элементы без префикса security: -->
     <http auto-config="true">
         <intercept-url pattern="/login" access="permitAll"/>
-        <intercept-url pattern="/**" access="isAuthenticated()"/>
-        <intercept-url pattern="/admin**" access="hasRole('ADMIN')"/>
-        <intercept-url pattern="/reception**" access="hasRole('RECEPTION')"/>
-        <intercept-url pattern="/restaurant**" access="hasRole('GARCON')"/>
+        <intercept-url pattern="/admin" access="hasRole('ADMIN')"/>
+        <intercept-url pattern="/reception" access="hasRole('RECEPTION')"/>
+        <intercept-url pattern="/restaurant" access="hasRole('GARCON')"/>
 
+        <intercept-url pattern="/admin/**" access="hasRole('ADMIN')"/>
+        <intercept-url pattern="/reception/**" access="hasRole('RECEPTION')"/>
+        <intercept-url pattern="/restaurant/**" access="hasRole('GARCON')"/>
 
         <!--default-target-url="/index"-->
         <form-login
