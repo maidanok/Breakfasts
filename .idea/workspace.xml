@@ -2,50 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e91ae16-d1d1-4488-a9ad-cd176c30a33d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_8_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mybatis_mybatis_typehandlers_jsr310_1_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_aop_4_3_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_beans_4_3_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_context_4_3_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_core_4_3_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_expression_4_3_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_jdbc_4_3_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_tx_4_3_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_web_4_3_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_webmvc_4_3_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/dao/EntityMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/datamodel/Entity.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/breakfast-ui/build/serverBaseDir_tomcat8/work/Tomcat/localhost/breakfast-ui/SESSIONS.ser" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-data-layer/build/classes/main/by/luchesa/breakfast/dao/BreakfastMapper.class" afterPath="$PROJECT_DIR$/breakfast-data-layer/build/classes/main/by/luchesa/breakfast/dao/BreakfastMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-data-layer/build/classes/main/by/luchesa/breakfast/datamodel/Breakfast.class" afterPath="$PROJECT_DIR$/breakfast-data-layer/build/classes/main/by/luchesa/breakfast/datamodel/Breakfast.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-data-layer/build/libs/breakfast-data-layer-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/breakfast-data-layer/build/libs/breakfast-data-layer-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-service/build/classes/main/by/luchesa/breakfast/service/impl/AdminServiceImpl.class" afterPath="$PROJECT_DIR$/breakfast-service/build/classes/main/by/luchesa/breakfast/service/impl/AdminServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-service/build/classes/main/by/luchesa/breakfast/service/impl/ReceptionServiceImpl.class" afterPath="$PROJECT_DIR$/breakfast-service/build/classes/main/by/luchesa/breakfast/service/impl/ReceptionServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-service/build/libs/breakfast-service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/breakfast-service/build/libs/breakfast-service-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-ui/build/classes/main/by/luchesa/breakfast/web/controller/AdminRestController.class" afterPath="$PROJECT_DIR$/breakfast-ui/build/classes/main/by/luchesa/breakfast/web/controller/AdminRestController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-ui/build/serverBaseDir_tomcat8/work/Tomcat/localhost/breakfast-ui/org/apache/jsp/WEB_002dINF/views/jsp/admin_jsp.class" afterPath="$PROJECT_DIR$/breakfast-ui/build/serverBaseDir_tomcat8/work/Tomcat/localhost/breakfast-ui/org/apache/jsp/WEB_002dINF/views/jsp/admin_jsp.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-data-layer/build.gradle" afterPath="$PROJECT_DIR$/breakfast-data-layer/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-data-layer/build/resources/main/by/luchesa/breakfast/datamodel/mapper/BreakfastMapper.xml" afterPath="$PROJECT_DIR$/breakfast-data-layer/build/resources/main/by/luchesa/breakfast/datamodel/mapper/BreakfastMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/dao/BreakfastMapper.java" afterPath="$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/dao/BreakfastMapper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/dao/OrderMapper.java" afterPath="$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/dao/OrderMapper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/dao/RoomMapper.java" afterPath="$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/dao/RoomMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/datamodel/Breakfast.java" afterPath="$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/datamodel/Breakfast.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/datamodel/Room.java" afterPath="$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/datamodel/Room.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/dao/UserMapper.java" afterPath="$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/dao/UserMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/dao/UserRolesMapper.java" afterPath="$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/dao/UserRolesMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/datamodel/Order.java" afterPath="$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/datamodel/Order.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/datamodel/User.java" afterPath="$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/datamodel/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/datamodel/UserRoles.java" afterPath="$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/datamodel/UserRoles.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-data-layer/src/main/resources/by/luchesa/breakfast/datamodel/mapper/BreakfastMapper.xml" afterPath="$PROJECT_DIR$/breakfast-data-layer/src/main/resources/by/luchesa/breakfast/datamodel/mapper/BreakfastMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-service/src/main/java/by/luchesa/breakfast/service/impl/AdminServiceImpl.java" afterPath="$PROJECT_DIR$/breakfast-service/src/main/java/by/luchesa/breakfast/service/impl/AdminServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-data-layer/src/main/resources/by/luchesa/breakfast/datamodel/mapper/OrderMapper.xml" afterPath="$PROJECT_DIR$/breakfast-data-layer/src/main/resources/by/luchesa/breakfast/datamodel/mapper/OrderMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-data-layer/src/main/resources/by/luchesa/breakfast/datamodel/mapper/RoomMapper.xml" afterPath="$PROJECT_DIR$/breakfast-data-layer/src/main/resources/by/luchesa/breakfast/datamodel/mapper/RoomMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-data-layer/src/main/resources/by/luchesa/breakfast/datamodel/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/breakfast-data-layer/src/main/resources/by/luchesa/breakfast/datamodel/mapper/UserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-data-layer/src/main/resources/by/luchesa/breakfast/datamodel/mapper/UserRolesMapper.xml" afterPath="$PROJECT_DIR$/breakfast-data-layer/src/main/resources/by/luchesa/breakfast/datamodel/mapper/UserRolesMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-service/src/main/java/by/luchesa/breakfast/service/impl/ReceptionServiceImpl.java" afterPath="$PROJECT_DIR$/breakfast-service/src/main/java/by/luchesa/breakfast/service/impl/ReceptionServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-ui/build.gradle" afterPath="$PROJECT_DIR$/breakfast-ui/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-ui/build/inplaceWebapp/WEB-INF/views/jsp/admin.jsp" afterPath="$PROJECT_DIR$/breakfast-ui/build/inplaceWebapp/WEB-INF/views/jsp/admin.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-ui/build/serverBaseDir_tomcat8/work/Tomcat/localhost/breakfast-ui/org/apache/jsp/WEB_002dINF/views/jsp/admin_jsp.java" afterPath="$PROJECT_DIR$/breakfast-ui/build/serverBaseDir_tomcat8/work/Tomcat/localhost/breakfast-ui/org/apache/jsp/WEB_002dINF/views/jsp/admin_jsp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-ui/build/serverBaseDir_tomcat8/work/Tomcat/localhost/breakfast-ui/org/apache/jsp/WEB_002dINF/views/jsp/login_jsp.java" afterPath="$PROJECT_DIR$/breakfast-ui/build/serverBaseDir_tomcat8/work/Tomcat/localhost/breakfast-ui/org/apache/jsp/WEB_002dINF/views/jsp/login_jsp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-ui/src/main/java/by/luchesa/breakfast/web/controller/AdminRestController.java" afterPath="$PROJECT_DIR$/breakfast-ui/src/main/java/by/luchesa/breakfast/web/controller/AdminRestController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-ui/src/main/webapp/WEB-INF/views/jsp/admin.jsp" afterPath="$PROJECT_DIR$/breakfast-ui/src/main/webapp/WEB-INF/views/jsp/admin.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/breakfast-service/src/main/java/by/luchesa/breakfast/service/impl/RestaurantServiceImpl.java" afterPath="$PROJECT_DIR$/breakfast-service/src/main/java/by/luchesa/breakfast/service/impl/RestaurantServiceImpl.java" />
     </list>
     <ignored path="Breakfast.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -101,8 +72,8 @@
       <file leaf-file-name="EntityMapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/dao/EntityMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+            <state relative-caret-position="255">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="19" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,56 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BreakfastMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/dao/BreakfastMapper.java">
+      <file leaf-file-name="UserRolesMapper.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/dao/UserRolesMapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
               <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoomMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/dao/RoomMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoomMapper.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/breakfast-data-layer/src/main/resources/by/luchesa/breakfast/datamodel/mapper/RoomMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="17" lean-forward="true" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Room.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/datamodel/Room.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding>
-                <element signature="e#385#386#0" expanded="true" />
-                <element signature="e#412#413#0" expanded="true" />
-                <element signature="e#479#480#0" expanded="true" />
-                <element signature="e#512#513#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BreakfastMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/breakfast-data-layer/src/main/resources/by/luchesa/breakfast/datamodel/mapper/BreakfastMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -175,6 +101,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -1582,7 +1513,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/breakfast-ui/src/main/java/by/luchesa/breakfast/web/client/FloorRestClient.java" />
         <option value="$PROJECT_DIR$/breakfast-service/src/main/java/by/luchesa/breakfast/dao/RoomService.java" />
         <option value="$PROJECT_DIR$/breakfast-service/src/main/java/by/luchesa/breakfast/servise/RoomService.java" />
         <option value="$PROJECT_DIR$/breakfast-service/src/main/java/by/luchesa/breakfast/dao/RoomImpl.java" />
@@ -1597,7 +1527,6 @@
         <option value="$PROJECT_DIR$/breakfast-service/src/main/resources/by/luchesa/breakfast/spring-service-config.xml" />
         <option value="$PROJECT_DIR$/breakfast-data-layer/src/main/resources/by/luchesa/breakfast/datamodel/spring-database-connector.xml" />
         <option value="$PROJECT_DIR$/breakfast-ui/src/main/java/by/luchesa/breakfast/web/controller/FloorRestController.java" />
-        <option value="$PROJECT_DIR$/breakfast-data-layer/src/main/resources/by/luchesa/breakfast/datamodel/mapper/RoomMapper.xml" />
         <option value="$PROJECT_DIR$/breakfast-ui/src/main/java/by/luchesa/breakfast/web/controller/ReceptionRestController.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/breakfast-service/build.gradle" />
@@ -1605,8 +1534,6 @@
         <option value="$PROJECT_DIR$/breakfast-ui/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/breakfast-service/src/main/java/by/luchesa/breakfast/service/RestaurantServiceImpl.java" />
         <option value="$PROJECT_DIR$/breakfast-service/src/main/java/by/luchesa/breakfast/service/RestaurantService.java" />
-        <option value="$PROJECT_DIR$/breakfast-data-layer/src/main/resources/by/luchesa/breakfast/datamodel/mapper/OrderMapper.xml" />
-        <option value="$PROJECT_DIR$/breakfast-service/src/main/java/by/luchesa/breakfast/service/impl/RestaurantServiceImpl.java" />
         <option value="$PROJECT_DIR$/breakfast-service/src/main/resources/by/luchesa/breakfast/service/spring-service-config.xml" />
         <option value="$PROJECT_DIR$/breakfast-data-layer/src/main/resources/by/luchesa/breakfast/datamodel/spring-data-layer-config.xml" />
         <option value="$PROJECT_DIR$/breakfast-ui/src/main/webapp/WEB-INF/spring-security.xml" />
@@ -1619,13 +1546,24 @@
         <option value="$PROJECT_DIR$/breakfast-ui/src/main/webapp/WEB-INF/views/jsp/admin.jsp" />
         <option value="$PROJECT_DIR$/breakfast-ui/src/main/java/by/luchesa/breakfast/web/controller/AdminRestController.java" />
         <option value="$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/datamodel/Entity.java" />
-        <option value="$PROJECT_DIR$/breakfast-data-layer/src/main/resources/by/luchesa/breakfast/datamodel/mapper/BreakfastMapper.xml" />
         <option value="$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/dao/EntityMapper.java" />
         <option value="$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/dao/BreakfastMapper.java" />
         <option value="$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/datamodel/Breakfast.java" />
-        <option value="$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/dao/OrderMapper.java" />
-        <option value="$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/dao/RoomMapper.java" />
         <option value="$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/datamodel/Room.java" />
+        <option value="$PROJECT_DIR$/breakfast-data-layer/src/main/resources/by/luchesa/breakfast/datamodel/mapper/BreakfastMapper.xml" />
+        <option value="$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/dao/RoomMapper.java" />
+        <option value="$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/datamodel/Order.java" />
+        <option value="$PROJECT_DIR$/breakfast-data-layer/src/main/resources/by/luchesa/breakfast/datamodel/mapper/RoomMapper.xml" />
+        <option value="$PROJECT_DIR$/breakfast-data-layer/src/main/resources/by/luchesa/breakfast/datamodel/mapper/OrderMapper.xml" />
+        <option value="$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/dao/OrderMapper.java" />
+        <option value="$PROJECT_DIR$/breakfast-service/src/main/java/by/luchesa/breakfast/service/impl/ReceptionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/breakfast-service/src/main/java/by/luchesa/breakfast/service/impl/RestaurantServiceImpl.java" />
+        <option value="$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/datamodel/User.java" />
+        <option value="$PROJECT_DIR$/breakfast-data-layer/src/main/resources/by/luchesa/breakfast/datamodel/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/dao/UserMapper.java" />
+        <option value="$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/datamodel/UserRoles.java" />
+        <option value="$PROJECT_DIR$/breakfast-data-layer/src/main/resources/by/luchesa/breakfast/datamodel/mapper/UserRolesMapper.xml" />
+        <option value="$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/dao/UserRolesMapper.java" />
       </list>
     </option>
   </component>
@@ -1653,6 +1591,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1865,6 +1805,132 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="breakfast-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Breakfast" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Breakfasts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="breakfast-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Breakfast" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Breakfasts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="breakfast-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Breakfast" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Breakfasts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="breakfast-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Breakfast" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Breakfasts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="breakfast-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Breakfast" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Breakfasts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="breakfast-data-layer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -2022,8 +2088,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2337,14 +2401,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2356,7 +2419,8 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27184466" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27588996" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928804" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2369,8 +2433,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -2402,44 +2466,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/breakfast-service/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/breakfast-data-layer/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/breakfast-service/src/main/java/by/luchesa/breakfast/service/api/RestaurantService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/breakfast-service/src/main/java/by/luchesa/breakfast/service/impl/RestaurantServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="51" lean-forward="false" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/breakfast-ui/src/main/java/by/luchesa/breakfast/web/controller/BreakfastController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/breakfast-ui/src/main/java/by/luchesa/breakfast/web/client/FloorRestClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -2491,45 +2517,10 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.IdeaIC2016.2/system/extResources/52c57693_spring-context-4.3.xsd" />
-    <entry file="file://$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/dao/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/breakfast-data-layer/src/main/resources/by/luchesa/breakfast/datamodel/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="73" lean-forward="false" selection-start-line="22" selection-start-column="73" selection-end-line="22" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/breakfast-service/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="37" lean-forward="false" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/breakfast-ui/src/main/java/by/luchesa/breakfast/web/controller/BreakfastController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="31" column="21" lean-forward="false" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/breakfast-data-layer/src/main/resources/by/luchesa/breakfast/datamodel/mapper/OrderMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="66" lean-forward="false" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/breakfast-service/src/main/java/by/luchesa/breakfast/service/impl/RestaurantServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="25" column="11" lean-forward="false" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -2561,20 +2552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/breakfast-data-layer/src/main/resources/by/luchesa/breakfast/datamodel/mapper/UserRolesMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/dao/UserRolesMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/breakfast-data-layer/src/main/resources/by/luchesa/breakfast/datamodel/spring-data-layer-config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -2597,27 +2574,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/breakfast-ui/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/breakfast-ui/src/main/webapp/WEB-INF/breakfast-dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="56" lean-forward="false" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/breakfast-service/src/main/java/by/luchesa/breakfast/service/api/RestaurantService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2625,7 +2585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2641,7 +2600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2649,18 +2607,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/Test.java" />
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -2673,7 +2623,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="559">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2681,7 +2630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="76" lean-forward="false" selection-start-line="31" selection-start-column="76" selection-end-line="31" selection-end-column="76" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2689,15 +2637,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/breakfast-ui/src/main/java/by/luchesa/breakfast/web/controller/AdminRestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1411">
-          <caret line="95" column="24" lean-forward="true" selection-start-line="95" selection-start-column="24" selection-end-line="95" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2709,57 +2648,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/breakfast-data-layer/src/main/resources/by/luchesa/breakfast/datamodel/mapper/BreakfastMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/dao/OrderMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/datamodel/Breakfast.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/datamodel/Room.java">
+    <entry file="file://$PROJECT_DIR$/breakfast-ui/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="221">
+          <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/dao/EntityMapper.java">
+    <entry file="file://$PROJECT_DIR$/breakfast-ui/src/main/webapp/WEB-INF/breakfast-dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="357">
+          <caret line="21" column="56" lean-forward="false" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/breakfast-ui/src/main/java/by/luchesa/breakfast/web/controller/BreakfastController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="91" column="32" lean-forward="true" selection-start-line="91" selection-start-column="32" selection-end-line="91" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2771,18 +2688,161 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/breakfast-ui/src/main/java/by/luchesa/breakfast/web/controller/AdminRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-680">
+          <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/dao/RoomMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/datamodel/Room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/breakfast-data-layer/src/main/resources/by/luchesa/breakfast/datamodel/mapper/BreakfastMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="38" column="41" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="38" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/breakfast-data-layer/src/main/resources/by/luchesa/breakfast/datamodel/mapper/RoomMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="17" lean-forward="true" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+        <state relative-caret-position="765">
+          <caret line="45" column="21" lean-forward="false" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/datamodel/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/breakfast-service/src/main/java/by/luchesa/breakfast/service/impl/AdminServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-155">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/breakfast-service/src/main/java/by/luchesa/breakfast/service/impl/RestaurantServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="42" column="13" lean-forward="true" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/breakfast-service/src/main/java/by/luchesa/breakfast/service/impl/ReceptionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="68" column="49" lean-forward="false" selection-start-line="68" selection-start-column="49" selection-end-line="68" selection-end-column="49" />
+          <folding>
+            <element signature="e#981#982#0" expanded="true" />
+            <element signature="e#1023#1024#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/dao/OrderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/datamodel/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="27" />
+          <folding>
+            <element signature="e#1503#1504#0" expanded="true" />
+            <element signature="e#1532#1533#0" expanded="true" />
+            <element signature="e#1599#1600#0" expanded="true" />
+            <element signature="e#1632#1633#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/dao/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/breakfast-data-layer/src/main/resources/by/luchesa/breakfast/datamodel/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="933">
+          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/dao/EntityMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="19" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/breakfast-data-layer/src/main/resources/by/luchesa/breakfast/datamodel/mapper/OrderMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/datamodel/UserRoles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/breakfast-data-layer/src/main/resources/by/luchesa/breakfast/datamodel/mapper/UserRolesMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="27" lean-forward="true" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/breakfast-data-layer/src/main/java/by/luchesa/breakfast/dao/UserRolesMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>

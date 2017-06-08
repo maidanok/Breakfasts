@@ -7,27 +7,19 @@ import java.util.Date;
 /**
  * Created by Admin on 10.02.2017.
  */
-public class Order {
+public class Order implements Entity {
     private int idOrder;
     private LocalDate dateOrder;
     private Breakfast breakfast;
     private Room room;
     private Boolean wasSpent;
 
-    public int getIdOrder() {
-        return idOrder;
-    }
-
-    public void setIdOrder(int idOrder) {
-        this.idOrder = idOrder;
-    }
-
     public LocalDate getDateOrder() {
         return dateOrder;
     }
 
     public void setDateOrder(LocalDate dateOrder) {
-      this.dateOrder=dateOrder;
+        this.dateOrder = dateOrder;
     }
 
     public Breakfast getBreakfast() {
@@ -55,6 +47,13 @@ public class Order {
     }
 
 
+    @Override
+    public Integer getPrimaryKey() {
+        return idOrder;
+    }
 
-
+    @Override
+    public void setPrimaryKey(Integer primaryKey) {
+        idOrder = primaryKey;
+    }
 }

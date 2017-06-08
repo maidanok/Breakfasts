@@ -33,7 +33,7 @@ public class ReceptionServiceImpl implements ReceptionService{
 
     @Override
     public List<Room> getAllRooms() {
-        return roomMapper.getAllRooms();
+        return roomMapper.getAll();
     }
 
     @Override
@@ -49,25 +49,25 @@ public class ReceptionServiceImpl implements ReceptionService{
     @Override
     public void insertOrder(Order order) {
 
-        orderMapper.insertOrder(order);
+        orderMapper.create(order);
 
     }
 
     @Override
     public void deleteOrder(Order order) {
-        orderMapper.deleteOrder(order.getIdOrder());
+        orderMapper.delete(order.getPrimaryKey());
 
     }
 
     @Override
     public Order getOrderById(int idOrder) {
-        return orderMapper.getOrderById(idOrder);
+        return orderMapper.getByPrimaryKey(idOrder);
     }
 
 
    public Order generateOrder(){
-      Order newOrder=orderMapper.getOrderById(2);
-        newOrder.setRoom(roomMapper.getRoom(400));
+      Order newOrder=orderMapper.getByPrimaryKey(2);
+        newOrder.setRoom(roomMapper.getByPrimaryKey(400));
         newOrder.setDateOrder(LocalDate.now());
         newOrder.setBreakfast(breakfastMapper.getByPrimaryKey(1));
         System.out.println("brekf"+newOrder.getBreakfast().getNameBreakfast());

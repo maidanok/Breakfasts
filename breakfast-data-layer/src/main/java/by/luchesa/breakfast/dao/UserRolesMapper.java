@@ -7,7 +7,5 @@ import java.util.List;
 /**
  * Created by Admin on 10.02.2017.
  */
-public interface UserRolesMapper {
- List<UserRoles> getAllUserRole();
- UserRoles getUserRoleId(int userRoleId);
+public interface UserRolesMapper extends EntityMapper<UserRoles> {
 }

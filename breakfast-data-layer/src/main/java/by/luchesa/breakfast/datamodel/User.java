@@ -3,7 +3,7 @@ package by.luchesa.breakfast.datamodel;
 
 
 //@org.springframework.stereotype.Component
-public class User {
+public class User implements Entity{
 
     private int userId;
     /** Логин пользователя */
@@ -65,5 +65,15 @@ public class User {
     @Override
     public String toString() {
         return "[ NAME = " + this.userName + " ]";
+    }
+
+    @Override
+    public Integer getPrimaryKey() {
+        return userId;
+    }
+
+    @Override
+    public void setPrimaryKey(Integer primaryKey) {
+        userId=primaryKey;
     }
 }

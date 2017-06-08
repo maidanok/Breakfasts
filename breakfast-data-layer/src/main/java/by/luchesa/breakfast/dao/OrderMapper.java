@@ -11,18 +11,12 @@ import java.util.List;
 /**
  * Created by Admin on 12.02.2017.
  */
-public interface OrderMapper {
+public interface OrderMapper extends EntityMapper<Order>{
 
     List<Order> getOrderByDate(LocalDate dateOrder);
 
     List<Order> getOrderByDateAndNotWasSpend(LocalDate dateOrder);
 
-    Order getOrderById(int idOrder);
-
-    void insertOrder(Order order);
-
     void completeOrder(int idOrder);
-
-    void deleteOrder(int idOrder);
 
 }

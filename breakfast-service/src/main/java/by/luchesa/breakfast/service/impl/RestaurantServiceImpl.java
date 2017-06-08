@@ -46,7 +46,7 @@ public class RestaurantServiceImpl implements RestaurantService {
     }
 
     public Order getOrderById(int idOrder){
-     return orderMapper.getOrderById(idOrder);
+     return orderMapper.getByPrimaryKey(idOrder);
     }
 
 }
