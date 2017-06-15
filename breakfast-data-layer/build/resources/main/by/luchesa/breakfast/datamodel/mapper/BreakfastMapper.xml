@@ -36,7 +36,7 @@
     <delete id="delete" parameterType="java.lang.Integer">
         DELETE
         FROM "breakfast"
-        WHERE id_breakfast=#{idBreakfast};
+        WHERE id_breakfast=#{primaryKey};
     </delete>
 
 
@@ -46,7 +46,7 @@
             name_breakfast=#{nameBreakfast},
             price=#{price}
         WHERE
-            id_breakfast=#{idBreakfast};
+            id_breakfast=#{primaryKey};
     </update>
 
 

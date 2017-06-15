@@ -2,21 +2,27 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
         <mapper namespace="by.luchesa.breakfast.dao.OrderMapper">
     <resultMap id="order" type="by.luchesa.breakfast.datamodel.Order">
-        <id property="idOrder" column="id_order"/>
+        <id property="primaryKey" column="id_order"/>
         <result column="date_order" property="dateOrder" />
         <result column="was_spent" property="wasSpent"/>
 
         <association property="breakfast" column="id_breakfast"
                      javaType="by.luchesa.breakfast.datamodel.Breakfast"
-                     select="by.luchesa.breakfast.dao.BreakfastMapper.getBreakfastId"
+                     select="by.luchesa.breakfast.dao.BreakfastMapper.getByPrimaryKey"
                      fetchType="eager"/>
 
         <association property="room" column="room"
                      javaType="by.luchesa.breakfast.datamodel.Room"
-                     select="by.luchesa.breakfast.dao.RoomMapper.getRoom"
+                     select="by.luchesa.breakfast.dao.RoomMapper.getByPrimaryKey"
                      fetchType="eager"/>
     </resultMap>
 
+    <select id="getAll" resultMap="order">
+        SELECT
+        *
+        FROM
+        order;
+    </select>
 
     <select id="getOrderByDate" parameterType="java.time.LocalDate" resultMap="order">
         SELECT
@@ -27,13 +33,13 @@
             date_order=#{dateOrder};
     </select>
 
-    <select id="getOrderById" parameterType="java.lang.Integer" resultMap="order">
+    <select id="getByPrimaryKey" parameterType="java.lang.Integer" resultMap="order">
         SELECT
             *
         FROM
             public."order"
         WHERE
-            id_order=#{idOrder};
+            id_order=#{primaryKey};
     </select>
 
     <select id="getOrderByDateAndNotWasSpend" resultMap="order">
@@ -46,22 +52,29 @@
 
     </select>
 
-    <insert id="insertOrder">
+    <insert id="create">
         INSERT 
             into public."order" (id_breakfast, room, date_order, was_spent)
         VALUES
-            (#{breakfast.idBreakfast}, #{room.room}, #{dateOrder}, 'false');
+            (#{breakfast.primaryKey}, #{room.primaryKey}, #{dateOrder}, 'false');
     </insert>
     
     <update id="completeOrder" parameterType="java.lang.Integer">
         UPDATE public."order"
         SET was_spent='true'
-        WHERE id_order=#{idOrder};
+        WHERE id_order=#{primaryKey};
     </update>
 
-    <delete id="deleteOrder" parameterType="java.lang.Integer">
+    <update id="update" parameterType="java.lang.Integer">
+        UPDATE public."order"
+        SET id_order=#{primaryKey}, id_breakfast=#{breakfast.primaryKey}, room={room.primaryKey},
+        date_order=#{dateOrder}, was_spent=#{wasSpent}
+        WHERE id_order=#{primaryKey};
+    </update>
+
+    <delete id="delete" parameterType="java.lang.Integer">
         DELETE FROM "order"
-        WHERE id_order=#{idOrder};
+        WHERE id_order=#{primaryKey};
     </delete>
 
 </mapper>

@@ -2,41 +2,63 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="by.luchesa.breakfast.dao.RoomMapper">
     <resultMap id="room" type="by.luchesa.breakfast.datamodel.Room">
-        <id property="room" column="room" />
+        <id property="room" column="room"/>
         <result column="floor" property="floor"/>
     </resultMap>
-    
-    <select id="getRoom" parameterType="java.lang.Integer" resultType="by.luchesa.breakfast.datamodel.Room">
+
+    <select id="getByPrimaryKey" parameterType="java.lang.Integer" resultType="by.luchesa.breakfast.datamodel.Room">
         SELECT
-            room,
-            floor
+        room,
+        floor
         FROM
-            rooms
+        rooms
         WHERE
-            room=#{room};
+        room=#{primaryKey};
     </select>
 
     <select id="getRoomsOnTheFloor" parameterType="java.lang.Integer" resultMap="room">
         SELECT
-            *
+        *
         FROM
-            rooms
+        rooms
         WHERE
-            floor=#{floor};
+        floor=#{floor};
     </select>
 
     <select id="getAllFlor" resultType="java.lang.Integer">
         SELECT floor
         FROM rooms
-        GROUP BY floor
         ORDER BY floor;
     </select>
 
-    <select id="getAllRooms" resultMap="room">
+    <select id="getAll" resultMap="room">
         SELECT
-            *
+        *
         FROM
-            rooms
+        rooms
         ORDER BY room;
     </select>
+
+    <insert id="create">
+        INSERT
+        INTO rooms (room, floor)
+        VALUES
+        (#{primaryKey}, #{floor});
+    </insert>
+
+    <update id="update">
+        UPDATE "rooms"
+        SET
+        room=#{room},
+        floor=#{floor}
+        WHERE
+        room=#{primaryKey};
+    </update>
+
+    <delete id="delete">
+        DELETE
+        FROM rooms
+        WHERE room=#{primaryKey};
+    </delete>
+
 </mapper>

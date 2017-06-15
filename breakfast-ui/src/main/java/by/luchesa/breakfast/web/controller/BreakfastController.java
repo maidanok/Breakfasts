@@ -1,6 +1,7 @@
 package by.luchesa.breakfast.web.controller;
 
 
+import by.luchesa.breakfast.service.api.UserService;
 import org.springframework.security.authentication.AnonymousAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -19,7 +20,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 public class BreakfastController {
 
     @Autowired
-    private UserMapper userMapper;
+    private UserService userService;
 
 
     /*@RequestMapping(value = { "/", "/index**" }, method = RequestMethod.GET)
@@ -35,7 +36,6 @@ public class BreakfastController {
 */
     @RequestMapping(value = { "/reception**" }, method = RequestMethod.GET)
     public ModelAndView reception() {
-
         ModelAndView model = new ModelAndView();
         model.addObject("title", "Spring Security Login Form - Database Authentication");
         model.addObject("message", "This is reception page!");
@@ -45,7 +45,6 @@ public class BreakfastController {
     }
     @RequestMapping(value = { "/restaurant**" }, method = RequestMethod.GET)
     public ModelAndView restaurant() {
-
         ModelAndView model = new ModelAndView();
         model.addObject("title", "Spring Security Login Form - Database Authentication");
         model.addObject("message", "This is Garcon page!");
@@ -55,11 +54,10 @@ public class BreakfastController {
     }
     @RequestMapping(value = "/admin**", method = RequestMethod.GET)
     public ModelAndView adminPage() {
-
         ModelAndView model = new ModelAndView();
         model.addObject("title", "Spring Security Login Form - Database Authentication");
         model.addObject("message", "This page is for ROLE_ADMIN only!");
-        model.addObject("user", userMapper.getUserName("admin"));
+        model.addObject("user", userService.getByName("admin"));
         model.setViewName("admin");
         return model;
 

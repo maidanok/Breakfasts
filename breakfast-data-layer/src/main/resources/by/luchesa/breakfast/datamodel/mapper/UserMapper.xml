@@ -8,7 +8,7 @@
         <result column="enabled"  property="enabled" />
         <association property="userRoles" column="user_role_id"
                      javaType="by.luchesa.breakfast.datamodel.UserRoles"
-                     select="by.luchesa.breakfast.dao.UserRolesMapper.getUserRoleId"
+                     select="by.luchesa.breakfast.dao.UserRolesMapper.getByPrimaryKey"
         />
     </resultMap>
    <!-- <sql id="userColumns">username, enabled, password</sql>-->

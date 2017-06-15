@@ -8,12 +8,12 @@
 
         <association property="breakfast" column="id_breakfast"
                      javaType="by.luchesa.breakfast.datamodel.Breakfast"
-                     select="by.luchesa.breakfast.dao.BreakfastMapper.getBreakfastId"
+                     select="by.luchesa.breakfast.dao.BreakfastMapper.getByPrimaryKey"
                      fetchType="eager"/>
 
         <association property="room" column="room"
                      javaType="by.luchesa.breakfast.datamodel.Room"
-                     select="by.luchesa.breakfast.dao.RoomMapper.getRoom"
+                     select="by.luchesa.breakfast.dao.RoomMapper.getByPrimaryKey"
                      fetchType="eager"/>
     </resultMap>
 
