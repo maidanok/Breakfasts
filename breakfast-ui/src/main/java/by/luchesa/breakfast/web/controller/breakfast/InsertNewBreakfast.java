@@ -16,9 +16,12 @@ import java.util.List;
 public class InsertNewBreakfast {
     @Autowired
     BreakfastService breakfastService;
-    @RequestMapping(value = "/admin/rest/breakfast/", method = RequestMethod.PUT)
+    @RequestMapping(value = "/admin/rest/newbreakfast/", method = RequestMethod.POST)
     @ResponseBody
-    public ResponseEntity<List<Breakfast>> execute (@RequestBody Breakfast newBreakfast){
+    public ResponseEntity<List<Breakfast>> execute (String nameBreakfast, String price){
+        Breakfast newBreakfast = new Breakfast();
+        newBreakfast.setNameBreakfast(nameBreakfast);
+        newBreakfast.setPrice(Double.valueOf(price));
         breakfastService.insertNewBreakfast(newBreakfast);
         return new ResponseEntity<List<Breakfast>>(breakfastService.getAllBreakfast(), HttpStatus.OK);
     }
