@@ -1,8 +1,9 @@
 function submitForm(id) {
-    var form = document.getElementById(id);
-    var isSubmit = true;
-    if(isSubmit) {
-        form.submit();
-        }
+    $.ajax({
+        url:$(id).attr('action'),
+        type:$(id).attr('method'),
+        data: $(id).serialize();
+    });
     return false;
 }
+

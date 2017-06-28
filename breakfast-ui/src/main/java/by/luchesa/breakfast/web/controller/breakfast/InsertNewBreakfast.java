@@ -18,10 +18,7 @@ public class InsertNewBreakfast {
     BreakfastService breakfastService;
     @RequestMapping(value = "/admin/rest/newbreakfast/", method = RequestMethod.POST)
     @ResponseBody
-    public ResponseEntity<List<Breakfast>> execute (String nameBreakfast, String price){
-        Breakfast newBreakfast = new Breakfast();
-        newBreakfast.setNameBreakfast(nameBreakfast);
-        newBreakfast.setPrice(Double.valueOf(price));
+    public ResponseEntity<List<Breakfast>> execute (Breakfast newBreakfast){
         breakfastService.insertNewBreakfast(newBreakfast);
         return new ResponseEntity<List<Breakfast>>(breakfastService.getAllBreakfast(), HttpStatus.OK);
     }

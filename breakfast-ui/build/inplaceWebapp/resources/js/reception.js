@@ -37,6 +37,24 @@ $(document).ready(function(){
             floor=data;
         }
     });
+
+    $.ajax({
+    type:"DELETE",
+    url: prefix+"/admin/rest/breakfast/"+row.primaryKey,
+        success: function(response){
+        $('#breaktable').datagrid('reload',response);
+        }
+    });
+
+
+                $.ajax({
+                  url: $('#editbr').attr('action')+$(#breakPK).val(),
+                  type: $('#editbr').attr('method'),
+                  data : msg,
+                  success: function(response){
+                    $('#weditbr').window('close')
+                    $('#breaktable').datagrid('reload',response);
+                  }
 });
 
 
