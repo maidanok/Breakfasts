@@ -53,9 +53,9 @@ pageEncoding="UTF-8"%>
                     var row = $('#breaktable').datagrid('getSelected');
                     if (row){
                         $('#weditbr').form('load',{
-                            breakPK:row.primaryKey,
-                            nameBreakf:row.nameBreakfast,
-                            price1:row.price
+                            primaryKey:row.primaryKey,
+                            nameBreakfast:row.nameBreakfast,
+                            price:row.price
                         });
                         $('#weditbr').window('open')
                     }
@@ -79,14 +79,14 @@ pageEncoding="UTF-8"%>
                 </form>
             </div>
             <div id="weditbr" class="easyui-window" title="Редактировать завтрак" data-options="modal:true,closed:true,iconCls:'icon-save'" style="width:400px;height:250px;padding:10px;">
-                <form id="editbr" action="${prefix}admin/rest/newbreakfast2/" method="POST" enctype="multipart/form-data">
+                <form id="editbr" action="${prefix}admin/rest/breakfast/" method="POST" enctype="multipart/form-data">
                     <div style="margin-bottom:20px">
-                        <input id="breakPK" name="breakPK" type="hidden" value="">
-                        <input id="nameBreakf" value="" class="easyui-textbox" name="nameBreakf"
+                        <input id="breakPK" name="primaryKey" type="hidden" value="">
+                        <input id="nameBreakf" value="" class="easyui-textbox" name="nameBreakfast"
                                style="width:100%" data-options="label:'Тип завтрака',required:true, labelPosition:'top'">
                     </div>
                     <div style="margin-bottom:20px">
-                        <input id="price1" value="" type="text" class="easyui-numberbox" name="price1" label="Цена:" labelPosition="top"
+                        <input id="price1" value="" type="text" class="easyui-numberbox" name="price" label="Цена:" labelPosition="top"
                                precision="2" style="width:100%;">
                     </div>
                     <div style="text-align:center;padding:5px 0">
@@ -108,21 +108,29 @@ pageEncoding="UTF-8"%>
               url: $('#newbreak').attr('action'),
               type: $('#newbreak').attr('method'),
               data : msg,
-              success: function(response){
-                $('#wnewbr').window('close')
-                $('#breaktable').datagrid('reload',response);
-              }
+                success: function(response){
+                    $('#wnewbr').window('close')
+                    $('#breaktable').datagrid('reload',response);
+                }
             });
             return false;
         });
-    </script>
 
-    <script type="text/javascript">
         $('#editbr').submit(function(){
-               $.messager.alert('Info', "Редактировать завтрак")
-            };
-        return false;
+            var msg = $('#editbr').serialize(),
+            id = $('#editbr').attr('action')+$('#breakPK').val();
+            $.ajax({
+                url: id,
+                type: $('#editbr').attr('method'),
+                data : msg,
+                success: function(response){
+                    $('#weditbr').window('close')
+                    $('#breaktable').datagrid('reload',response);
+                }
+            });
+            return false;
         });
+
     </script>
 
 </t:html>
